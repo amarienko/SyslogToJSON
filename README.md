@@ -114,7 +114,9 @@ During the processing of syslog file rows, the double quote `'"'` character in t
 ### Notes
 
 * The script uses the basic system utilities installed by default with the operating system `awk`, `sed` and `cut`
+
 * To check the output JSON file, the `jq` command is used (*must be installed in the system*). The default path `/usr/bin/jq` is used to run the `jq` command. If the executable file is not installed in the `/usr/bin` directory, then the path to the `jq` command must be specified in the `-j` option.
+
 * To disable the check of an output JSON file, you can use the `-c` option.
 
 ### References
