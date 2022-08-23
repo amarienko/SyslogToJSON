@@ -21,6 +21,7 @@ The **MSG** part will fill the remainder of the syslog packet. This will usually
 The **CONTENT** contains the details of the message. This has traditionally been a freeform message that gives some detailed information of the event.
 
 The System Log can be found at `/var/log/messages` (FreeBSD) or `/var/log/syslog` (Linux), and may contain information not included in other logs. The format of the messages in the syslog file refers to the syntax defined by The Syslog Protocol standard.
+
 Syslog files of both types of systems contain the following structure:
 
 - **HEADER**  consisting of `TIMESTAMP` and `HOSTNAME` fields
