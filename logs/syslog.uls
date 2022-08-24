@@ -1,0 +1,1000 @@
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] Linux version 5.15.0-46-generic (buildd@lcy02-amd64-115) (gcc (Ubuntu 11.2.0-19ubuntu1) 11.2.0, GNU ld (GNU Binutils for Ubuntu) 2.38) #49-Ubuntu SMP Thu Aug 4 18:03:25 UTC 2022 (Ubuntu 5.15.0-46.49-generic 5.15.39)
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] Command line: BOOT_IMAGE=/vmlinuz-5.15.0-46-generic root=/dev/mapper/vg0-lv--root ro
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] KERNEL supported cpus:
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000]   Intel GenuineIntel
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000]   AMD AuthenticAMD
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000]   Hygon HygonGenuine
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000]   Centaur CentaurHauls
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000]   zhaoxin   Shanghai  
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] Disabled fast string operations
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] signal: max sigframe size: 1776
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] BIOS-provided physical RAM map:
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x0000000000000fff] ACPI NVS
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] BIOS-e820: [mem 0x0000000000001000-0x000000000009ffff] usable
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] BIOS-e820: [mem 0x00000000000c0000-0x00000000000fffff] reserved
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000000eeebfff] usable
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] BIOS-e820: [mem 0x000000000eeec000-0x000000000eef4fff] reserved
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] BIOS-e820: [mem 0x000000000eef5000-0x000000000ef07fff] usable
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] BIOS-e820: [mem 0x000000000ef08000-0x000000000ef0cfff] reserved
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] BIOS-e820: [mem 0x000000000ef0d000-0x000000000ef11fff] ACPI NVS
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] BIOS-e820: [mem 0x000000000ef12000-0x000000000ef2bfff] usable
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] BIOS-e820: [mem 0x000000000ef2c000-0x000000000ef30fff] reserved
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] BIOS-e820: [mem 0x000000000ef31000-0x000000000fee6fff] usable
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] BIOS-e820: [mem 0x000000000fee7000-0x000000000ff56fff] reserved
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] BIOS-e820: [mem 0x000000000ff57000-0x000000000ff72fff] ACPI data
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] BIOS-e820: [mem 0x000000000ff73000-0x000000000ff76fff] ACPI NVS
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] BIOS-e820: [mem 0x000000000ff77000-0x00000000bfffffff] usable
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] BIOS-e820: [mem 0x00000000ffc00000-0x00000000ffc29fff] reserved
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] NX (Execute Disable) protection: active
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] e820: update [mem 0x0e4d5018-0x0e4dd057] usable ==> usable
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] e820: update [mem 0x0e4d5018-0x0e4dd057] usable ==> usable
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] e820: update [mem 0x0e4d2018-0x0e4d4057] usable ==> usable
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] e820: update [mem 0x0e4d2018-0x0e4d4057] usable ==> usable
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] e820: update [mem 0x0e4d0018-0x0e4d1857] usable ==> usable
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] e820: update [mem 0x0e4d0018-0x0e4d1857] usable ==> usable
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] e820: update [mem 0x0e4cd018-0x0e4cf057] usable ==> usable
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] e820: update [mem 0x0e4cd018-0x0e4cf057] usable ==> usable
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] extended physical RAM map:
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] reserve setup_data: [mem 0x0000000000000000-0x0000000000000fff] ACPI NVS
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] reserve setup_data: [mem 0x0000000000001000-0x000000000009ffff] usable
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] reserve setup_data: [mem 0x00000000000c0000-0x00000000000fffff] reserved
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] reserve setup_data: [mem 0x0000000000100000-0x000000000e4cd017] usable
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] reserve setup_data: [mem 0x000000000e4cd018-0x000000000e4cf057] usable
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] reserve setup_data: [mem 0x000000000e4cf058-0x000000000e4d0017] usable
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] reserve setup_data: [mem 0x000000000e4d0018-0x000000000e4d1857] usable
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] reserve setup_data: [mem 0x000000000e4d4058-0x000000000e4d5017] usable
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] reserve setup_data: [mem 0x000000000e4d5018-0x000000000e4dd057] usable
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] reserve setup_data: [mem 0x000000000e4dd058-0x000000000eeebfff] usable
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] reserve setup_data: [mem 0x000000000eeec000-0x000000000eef4fff] reserved
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] reserve setup_data: [mem 0x000000000eef5000-0x000000000ef07fff] usable
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] reserve setup_data: [mem 0x000000000ef08000-0x000000000ef0cfff] reserved
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] reserve setup_data: [mem 0x000000000ef0d000-0x000000000ef11fff] ACPI NVS
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] reserve setup_data: [mem 0x000000000ef12000-0x000000000ef2bfff] usable
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] reserve setup_data: [mem 0x000000000ef2c000-0x000000000ef30fff] reserved
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] reserve setup_data: [mem 0x000000000ef31000-0x000000000fee6fff] usable
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] reserve setup_data: [mem 0x000000000fee7000-0x000000000ff56fff] reserved
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] reserve setup_data: [mem 0x000000000ff57000-0x000000000ff72fff] ACPI data
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] reserve setup_data: [mem 0x000000000ff73000-0x000000000ff76fff] ACPI NVS
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] reserve setup_data: [mem 0x000000000ff77000-0x00000000bfffffff] usable
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] reserve setup_data: [mem 0x00000000ffc00000-0x00000000ffc29fff] reserved
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] efi: EFI v2.31 by VMware, Inc.
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] efi: SMBIOS=0xef0d000 ACPI 2.0=0xff65000 MEMATTR=0xfcd1018 MOKvar=0xe4f4000 
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] secureboot: Secure boot disabled
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] SMBIOS 2.7 present.
+
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] DMI: VMware, Inc. VMware7,1/440BX Desktop Reference Platform, BIOS VMW71.00V.16722896.B64.2008100651 08/10/2020
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] vmware: hypercall mode: 0x02
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] Hypervisor detected: VMware
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] vmware: TSC freq read from hypervisor : 2294.688 MHz
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] vmware: Host bus clock speed read from hypervisor : 66000000 Hz
+Aug 11 17:37:01 uls2204-release kernel: [    0.000000] vmware: using clock offset of 4005842558 ns
+Aug 11 17:37:01 uls2204-release kernel: [    0.000023] tsc: Detected 2294.688 MHz processor
+Aug 11 17:37:01 uls2204-release kernel: [    0.002496] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Aug 11 17:37:01 uls2204-release kernel: [    0.002500] e820: remove [mem 0x000a0000-0x000fffff] usable
+Aug 11 17:37:01 uls2204-release kernel: [    0.002508] last_pfn = 0xc0000 max_arch_pfn = 0x400000000
+Aug 11 17:37:01 uls2204-release kernel: [    0.002534] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+Aug 11 17:37:01 uls2204-release kernel: [    0.002546] total RAM covered: 3072M
+Aug 11 17:37:01 uls2204-release kernel: [    0.002634] Found optimal setting for mtrr clean up
+Aug 11 17:37:01 uls2204-release kernel: [    0.002635]  gran_size: 64K 	chunk_size: 64K 	num_reg: 2  	lose cover RAM: 0G
+Aug 11 17:37:01 uls2204-release kernel: [    0.020119] e820: update [mem 0x0e4f4000-0x0e4f4fff] usable ==> reserved
+Aug 11 17:37:01 uls2204-release kernel: [    0.020151] Using GB pages for direct mapping
+Aug 11 17:37:01 uls2204-release kernel: [    0.020604] secureboot: Secure boot disabled
+Aug 11 17:37:01 uls2204-release kernel: [    0.020606] RAMDISK: [mem 0x07981000-0x0dfe5fff]
+Aug 11 17:37:01 uls2204-release kernel: [    0.020611] ACPI: Early table checksum verification disabled
+Aug 11 17:37:01 uls2204-release kernel: [    0.020616] ACPI: RSDP 0x000000000FF65000 000024 (v02 VMWARE)
+Aug 11 17:37:01 uls2204-release kernel: [    0.020621] ACPI: XSDT 0x000000000FF65064 00005C (v01 INTEL  440BX    06040000 VMW  01324272)
+Aug 11 17:37:01 uls2204-release kernel: [    0.020628] ACPI: SRAT 0x000000000FF650C0 000880 (v03 VMWARE EFISRAT  06040001 VMW  000007CE)
+Aug 11 17:37:01 uls2204-release kernel: [    0.020634] ACPI: FACP 0x000000000FF72594 0000F4 (v04 INTEL  440BX    06040000 PTL  000F4240)
+Aug 11 17:37:01 uls2204-release kernel: [    0.020641] ACPI: DSDT 0x000000000FF65940 00CC54 (v01 PTLTD  Custom   00000000 INTL 20130823)
+Aug 11 17:37:01 uls2204-release kernel: [    0.020645] ACPI: FACS 0x000000000FF76000 000040
+Aug 11 17:37:01 uls2204-release kernel: [    0.020650] ACPI: FACS 0x000000000FF76000 000040
+Aug 11 17:37:01 uls2204-release kernel: [    0.020654] ACPI: APIC 0x000000000FF726FC 000742 (v03 VMWARE EFIAPIC  06040001 VMW  000007CE)
+Aug 11 17:37:01 uls2204-release kernel: [    0.020658] ACPI: MCFG 0x000000000FF72E3E 00003C (v01 VMWARE EFIMCFG  06040001 VMW  000007CE)
+Aug 11 17:37:01 uls2204-release kernel: [    0.020663] ACPI: HPET 0x000000000FF72E7A 000038 (v01 VMWARE VMW HPET 00000000 VMW  00000000)
+Aug 11 17:37:01 uls2204-release kernel: [    0.020667] ACPI: WAET 0x000000000FF72EB2 000028 (v01 VMWARE VMW WAET 06040001 VMW  00000001)
+Aug 11 17:37:01 uls2204-release kernel: [    0.020671] ACPI: WSMT 0x000000000FF72EDA 000028 (v01 VMWARE VMW WSMT 06040001 VMW  00000001)
+Aug 11 17:37:01 uls2204-release kernel: [    0.020675] ACPI: Reserving SRAT table memory at [mem 0xff650c0-0xff6593f]
+Aug 11 17:37:01 uls2204-release kernel: [    0.020677] ACPI: Reserving FACP table memory at [mem 0xff72594-0xff72687]
+Aug 11 17:37:01 uls2204-release kernel: [    0.020678] ACPI: Reserving DSDT table memory at [mem 0xff65940-0xff72593]
+Aug 11 17:37:01 uls2204-release kernel: [    0.020679] ACPI: Reserving FACS table memory at [mem 0xff76000-0xff7603f]
+Aug 11 17:37:01 uls2204-release kernel: [    0.020680] ACPI: Reserving FACS table memory at [mem 0xff76000-0xff7603f]
+Aug 11 17:37:01 uls2204-release kernel: [    0.020681] ACPI: Reserving APIC table memory at [mem 0xff726fc-0xff72e3d]
+Aug 11 17:37:01 uls2204-release kernel: [    0.020682] ACPI: Reserving MCFG table memory at [mem 0xff72e3e-0xff72e79]
+Aug 11 17:37:01 uls2204-release kernel: [    0.020683] ACPI: Reserving HPET table memory at [mem 0xff72e7a-0xff72eb1]
+Aug 11 17:37:01 uls2204-release kernel: [    0.020684] ACPI: Reserving WAET table memory at [mem 0xff72eb2-0xff72ed9]
+Aug 11 17:37:01 uls2204-release kernel: [    0.020685] ACPI: Reserving WSMT table memory at [mem 0xff72eda-0xff72f01]
+Aug 11 17:37:01 uls2204-release kernel: [    0.020742] system APIC only can use physical flat
+Aug 11 17:37:01 uls2204-release kernel: [    0.020743] Setting APIC routing to physical flat.
+Aug 11 17:37:01 uls2204-release kernel: [    0.020788] SRAT: PXM 0 -> APIC 0x00 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020790] SRAT: PXM 0 -> APIC 0x02 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020791] SRAT: PXM 0 -> APIC 0x04 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020792] SRAT: PXM 0 -> APIC 0x06 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020793] SRAT: PXM 0 -> APIC 0x08 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020794] SRAT: PXM 0 -> APIC 0x0a -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020794] SRAT: PXM 0 -> APIC 0x0c -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020795] SRAT: PXM 0 -> APIC 0x0e -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020796] SRAT: PXM 0 -> APIC 0x10 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020797] SRAT: PXM 0 -> APIC 0x12 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020798] SRAT: PXM 0 -> APIC 0x14 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020799] SRAT: PXM 0 -> APIC 0x16 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020800] SRAT: PXM 0 -> APIC 0x18 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020800] SRAT: PXM 0 -> APIC 0x1a -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020801] SRAT: PXM 0 -> APIC 0x1c -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020802] SRAT: PXM 0 -> APIC 0x1e -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020803] SRAT: PXM 0 -> APIC 0x20 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020804] SRAT: PXM 0 -> APIC 0x22 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020805] SRAT: PXM 0 -> APIC 0x24 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020806] SRAT: PXM 0 -> APIC 0x26 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020806] SRAT: PXM 0 -> APIC 0x28 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020807] SRAT: PXM 0 -> APIC 0x2a -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020808] SRAT: PXM 0 -> APIC 0x2c -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020809] SRAT: PXM 0 -> APIC 0x2e -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020810] SRAT: PXM 0 -> APIC 0x30 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020811] SRAT: PXM 0 -> APIC 0x32 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020812] SRAT: PXM 0 -> APIC 0x34 -> Node 0
+Aug 11 17:37:01 uls2204-release systemd-modules-load[549]: Inserted module 'msr'
+Aug 11 17:37:01 uls2204-release kernel: [    0.020813] SRAT: PXM 0 -> APIC 0x36 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020813] SRAT: PXM 0 -> APIC 0x38 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020814] SRAT: PXM 0 -> APIC 0x3a -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020815] SRAT: PXM 0 -> APIC 0x3c -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020816] SRAT: PXM 0 -> APIC 0x3e -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020817] SRAT: PXM 0 -> APIC 0x40 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020818] SRAT: PXM 0 -> APIC 0x42 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020819] SRAT: PXM 0 -> APIC 0x44 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020819] SRAT: PXM 0 -> APIC 0x46 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020820] SRAT: PXM 0 -> APIC 0x48 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020821] SRAT: PXM 0 -> APIC 0x4a -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020822] SRAT: PXM 0 -> APIC 0x4c -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020823] SRAT: PXM 0 -> APIC 0x4e -> Node 0
+Aug 11 17:37:01 uls2204-release systemd-modules-load[549]: Inserted module 'ipmi_devintf'
+Aug 11 17:37:01 uls2204-release kernel: [    0.020824] SRAT: PXM 0 -> APIC 0x50 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020825] SRAT: PXM 0 -> APIC 0x52 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020825] SRAT: PXM 0 -> APIC 0x54 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020826] SRAT: PXM 0 -> APIC 0x56 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020827] SRAT: PXM 0 -> APIC 0x58 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020828] SRAT: PXM 0 -> APIC 0x5a -> Node 0
+Aug 11 17:37:01 uls2204-release lvm[545]:   3 logical volume(s) in volume group "vg0" monitored
+Aug 11 17:37:01 uls2204-release kernel: [    0.020829] SRAT: PXM 0 -> APIC 0x5c -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020830] SRAT: PXM 0 -> APIC 0x5e -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020831] SRAT: PXM 0 -> APIC 0x60 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020831] SRAT: PXM 0 -> APIC 0x62 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020832] SRAT: PXM 0 -> APIC 0x64 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020833] SRAT: PXM 0 -> APIC 0x66 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020834] SRAT: PXM 0 -> APIC 0x68 -> Node 0
+Aug 11 17:37:01 uls2204-release systemd[1]: Activating swap /swap.img...
+Aug 11 17:37:01 uls2204-release kernel: [    0.020835] SRAT: PXM 0 -> APIC 0x6a -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020836] SRAT: PXM 0 -> APIC 0x6c -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020837] SRAT: PXM 0 -> APIC 0x6e -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020837] SRAT: PXM 0 -> APIC 0x70 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020838] SRAT: PXM 0 -> APIC 0x72 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020839] SRAT: PXM 0 -> APIC 0x74 -> Node 0
+Aug 11 17:37:01 uls2204-release systemd[1]: Mounting FUSE Control File System...
+Aug 11 17:37:01 uls2204-release kernel: [    0.020840] SRAT: PXM 0 -> APIC 0x76 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020841] SRAT: PXM 0 -> APIC 0x78 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020842] SRAT: PXM 0 -> APIC 0x7a -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020843] SRAT: PXM 0 -> APIC 0x7c -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020843] SRAT: PXM 0 -> APIC 0x7e -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020844] SRAT: PXM 0 -> APIC 0x80 -> Node 0
+Aug 11 17:37:01 uls2204-release systemd[1]: Mounting Kernel Configuration File System...
+Aug 11 17:37:01 uls2204-release kernel: [    0.020845] SRAT: PXM 0 -> APIC 0x82 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020846] SRAT: PXM 0 -> APIC 0x84 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020847] SRAT: PXM 0 -> APIC 0x86 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020848] SRAT: PXM 0 -> APIC 0x88 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020849] SRAT: PXM 0 -> APIC 0x8a -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020849] SRAT: PXM 0 -> APIC 0x8c -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020850] SRAT: PXM 0 -> APIC 0x8e -> Node 0
+Aug 11 17:37:01 uls2204-release systemd[1]: Starting Device-Mapper Multipath Device Controller...
+Aug 11 17:37:01 uls2204-release kernel: [    0.020851] SRAT: PXM 0 -> APIC 0x90 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020852] SRAT: PXM 0 -> APIC 0x92 -> Node 0
+Aug 11 17:37:01 uls2204-release systemd[1]: Starting Flush Journal to Persistent Storage...
+Aug 11 17:37:01 uls2204-release kernel: [    0.020853] SRAT: PXM 0 -> APIC 0x94 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020854] SRAT: PXM 0 -> APIC 0x96 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020854] SRAT: PXM 0 -> APIC 0x98 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020855] SRAT: PXM 0 -> APIC 0x9a -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020856] SRAT: PXM 0 -> APIC 0x9c -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020857] SRAT: PXM 0 -> APIC 0x9e -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020858] SRAT: PXM 0 -> APIC 0xa0 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020859] SRAT: PXM 0 -> APIC 0xa2 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020860] SRAT: PXM 0 -> APIC 0xa4 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020860] SRAT: PXM 0 -> APIC 0xa6 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020861] SRAT: PXM 0 -> APIC 0xa8 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020862] SRAT: PXM 0 -> APIC 0xaa -> Node 0
+Aug 11 17:37:01 uls2204-release systemd[1]: Condition check resulted in Platform Persistent Storage Archival being skipped.
+Aug 11 17:37:01 uls2204-release kernel: [    0.020863] SRAT: PXM 0 -> APIC 0xac -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020864] SRAT: PXM 0 -> APIC 0xae -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020865] SRAT: PXM 0 -> APIC 0xb0 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020865] SRAT: PXM 0 -> APIC 0xb2 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020866] SRAT: PXM 0 -> APIC 0xb4 -> Node 0
+Aug 11 17:37:01 uls2204-release systemd[1]: Starting Load/Save Random Seed...
+Aug 11 17:37:01 uls2204-release kernel: [    0.020867] SRAT: PXM 0 -> APIC 0xb6 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020868] SRAT: PXM 0 -> APIC 0xb8 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020869] SRAT: PXM 0 -> APIC 0xba -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020870] SRAT: PXM 0 -> APIC 0xbc -> Node 0
+Aug 11 17:37:01 uls2204-release systemd[1]: Starting Apply Kernel Variables...
+Aug 11 17:37:01 uls2204-release kernel: [    0.020871] SRAT: PXM 0 -> APIC 0xbe -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020871] SRAT: PXM 0 -> APIC 0xc0 -> Node 0
+Aug 11 17:37:01 uls2204-release systemd[1]: Starting Create System Users...
+Aug 11 17:37:01 uls2204-release kernel: [    0.020872] SRAT: PXM 0 -> APIC 0xc2 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020873] SRAT: PXM 0 -> APIC 0xc4 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020874] SRAT: PXM 0 -> APIC 0xc6 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020875] SRAT: PXM 0 -> APIC 0xc8 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020876] SRAT: PXM 0 -> APIC 0xca -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020877] SRAT: PXM 0 -> APIC 0xcc -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020877] SRAT: PXM 0 -> APIC 0xce -> Node 0
+Aug 11 17:37:01 uls2204-release systemd[1]: Activated swap /swap.img.
+Aug 11 17:37:01 uls2204-release kernel: [    0.020878] SRAT: PXM 0 -> APIC 0xd0 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020879] SRAT: PXM 0 -> APIC 0xd2 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020880] SRAT: PXM 0 -> APIC 0xd4 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020881] SRAT: PXM 0 -> APIC 0xd6 -> Node 0
+Aug 11 17:37:01 uls2204-release systemd[1]: Mounted FUSE Control File System.
+Aug 11 17:37:01 uls2204-release kernel: [    0.020882] SRAT: PXM 0 -> APIC 0xd8 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020882] SRAT: PXM 0 -> APIC 0xda -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020883] SRAT: PXM 0 -> APIC 0xdc -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020884] SRAT: PXM 0 -> APIC 0xde -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020885] SRAT: PXM 0 -> APIC 0xe0 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020886] SRAT: PXM 0 -> APIC 0xe2 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020887] SRAT: PXM 0 -> APIC 0xe4 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020888] SRAT: PXM 0 -> APIC 0xe6 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020888] SRAT: PXM 0 -> APIC 0xe8 -> Node 0
+Aug 11 17:37:01 uls2204-release systemd[1]: Mounted Kernel Configuration File System.
+Aug 11 17:37:01 uls2204-release kernel: [    0.020889] SRAT: PXM 0 -> APIC 0xea -> Node 0
+Aug 11 17:37:01 uls2204-release systemd[1]: Finished Flush Journal to Persistent Storage.
+Aug 11 17:37:01 uls2204-release kernel: [    0.020890] SRAT: PXM 0 -> APIC 0xec -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020891] SRAT: PXM 0 -> APIC 0xee -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020892] SRAT: PXM 0 -> APIC 0xf0 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020893] SRAT: PXM 0 -> APIC 0xf2 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020894] SRAT: PXM 0 -> APIC 0xf4 -> Node 0
+Aug 11 17:37:01 uls2204-release systemd[1]: Finished Load/Save Random Seed.
+Aug 11 17:37:01 uls2204-release kernel: [    0.020894] SRAT: PXM 0 -> APIC 0xf6 -> Node 0
+Aug 11 17:37:01 uls2204-release systemd[1]: Finished Apply Kernel Variables.
+Aug 11 17:37:01 uls2204-release kernel: [    0.020895] SRAT: PXM 0 -> APIC 0xf8 -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020896] SRAT: PXM 0 -> APIC 0xfa -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020897] SRAT: PXM 0 -> APIC 0xfc -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020898] SRAT: PXM 0 -> APIC 0xfe -> Node 0
+Aug 11 17:37:01 uls2204-release kernel: [    0.020901] ACPI: SRAT: Node 0 PXM 0 [mem 0x00000000-0x0009ffff]
+Aug 11 17:37:01 uls2204-release systemd[1]: Condition check resulted in First Boot Complete being skipped.
+Aug 11 17:37:01 uls2204-release kernel: [    0.020903] ACPI: SRAT: Node 0 PXM 0 [mem 0x00100000-0xbfffffff]
+Aug 11 17:37:01 uls2204-release kernel: [    0.020906] NUMA: Node 0 [mem 0x00000000-0x0009ffff] + [mem 0x00100000-0xbfffffff] -> [mem 0x00000000-0xbfffffff]
+Aug 11 17:37:01 uls2204-release kernel: [    0.020916] NODE_DATA(0) allocated [mem 0xbffd6000-0xbfffffff]
+Aug 11 17:37:01 uls2204-release kernel: [    0.021228] Zone ranges:
+Aug 11 17:37:01 uls2204-release kernel: [    0.021230]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Aug 11 17:37:01 uls2204-release kernel: [    0.021232]   DMA32    [mem 0x0000000001000000-0x00000000bfffffff]
+Aug 11 17:37:01 uls2204-release kernel: [    0.021234]   Normal   empty
+Aug 11 17:37:01 uls2204-release systemd[1]: Reached target Swaps.
+Aug 11 17:37:01 uls2204-release systemd[1]: Finished Create System Users.
+Aug 11 17:37:01 uls2204-release systemd[1]: Starting Create Static Device Nodes in /dev...
+Aug 11 17:37:01 uls2204-release systemd[1]: Finished Create Static Device Nodes in /dev.
+Aug 11 17:37:01 uls2204-release multipathd[570]: --------start up--------
+Aug 11 17:37:01 uls2204-release multipathd[570]: read /etc/multipath.conf
+Aug 11 17:37:01 uls2204-release multipathd[570]: path checkers start up
+Aug 11 17:37:01 uls2204-release systemd[1]: Starting Rule-based Manager for Device Events and Files...
+Aug 11 17:37:01 uls2204-release multipathd[570]: sda: failed to get udev uid: No data available
+Aug 11 17:37:01 uls2204-release systemd[1]: Started Device-Mapper Multipath Device Controller.
+Aug 11 17:37:01 uls2204-release systemd[1]: Reached target Preparation for Local File Systems.
+Aug 11 17:37:01 uls2204-release systemd[1]: Mounting Mount unit for core20, revision 1405...
+Aug 11 17:37:01 uls2204-release systemd[1]: Mounting Mount unit for lxd, revision 22923...
+Aug 11 17:37:01 uls2204-release systemd[1]: Mounting Mount unit for snapd, revision 15534...
+Aug 11 17:37:01 uls2204-release systemd[1]: Mounted Mount unit for core20, revision 1405.
+Aug 11 17:37:01 uls2204-release systemd[1]: Mounted Mount unit for lxd, revision 22923.
+Aug 11 17:37:01 uls2204-release systemd[1]: Mounted Mount unit for snapd, revision 15534.
+Aug 11 17:37:01 uls2204-release systemd[1]: Started Rule-based Manager for Device Events and Files.
+Aug 11 17:37:01 uls2204-release systemd[1]: Finished Coldplug All udev Devices.
+Aug 11 17:37:01 uls2204-release systemd[1]: Condition check resulted in Show Plymouth Boot Screen being skipped.
+Aug 11 17:37:01 uls2204-release systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+Aug 11 17:37:01 uls2204-release systemd[1]: Condition check resulted in Forward Password Requests to Plymouth Directory Watch being skipped.
+Aug 11 17:37:01 uls2204-release systemd[1]: Reached target Local Encrypted Volumes.
+Aug 11 17:37:01 uls2204-release systemd-udevd[596]: Using default interface naming scheme 'v249'.
+Aug 11 17:37:01 uls2204-release multipath: sda: failed to get sysfs uid: Invalid argument
+Aug 11 17:37:01 uls2204-release multipath: sda: failed to get sgio uid: No such file or directory
+Aug 11 17:37:01 uls2204-release systemd-udevd[586]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+Aug 11 17:37:01 uls2204-release systemd-udevd[602]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+Aug 11 17:37:01 uls2204-release systemd[1]: Created slice Slice /system/lvm2-pvscan.
+Aug 11 17:37:01 uls2204-release systemd-udevd[590]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+Aug 11 17:37:01 uls2204-release systemd[1]: Starting LVM event activation on device 8:3...
+Aug 11 17:37:01 uls2204-release systemd-udevd[586]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+Aug 11 17:37:01 uls2204-release systemd[1]: Found device VMware_Virtual_S 1.
+Aug 11 17:37:01 uls2204-release systemd[1]: Starting File System Check on /dev/disk/by-uuid/CF36-E9AC...
+Aug 11 17:37:01 uls2204-release lvm[654]:   pvscan[654] PV /dev/sda3 online, VG vg0 is complete.
+Aug 11 17:37:01 uls2204-release lvm[654]:   pvscan[654] VG vg0 skip autoactivation.
+Aug 11 17:37:01 uls2204-release kernel: [    0.021235]   Device   empty
+Aug 11 17:37:01 uls2204-release kernel: [    0.021236] Movable zone start for each node
+Aug 11 17:37:01 uls2204-release kernel: [    0.021239] Early memory node ranges
+Aug 11 17:37:01 uls2204-release kernel: [    0.021239]   node   0: [mem 0x0000000000001000-0x000000000009ffff]
+Aug 11 17:37:01 uls2204-release kernel: [    0.021241]   node   0: [mem 0x0000000000100000-0x000000000eeebfff]
+Aug 11 17:37:01 uls2204-release kernel: [    0.021242]   node   0: [mem 0x000000000eef5000-0x000000000ef07fff]
+Aug 11 17:37:01 uls2204-release systemd-udevd[593]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+Aug 11 17:37:01 uls2204-release kernel: [    0.021243]   node   0: [mem 0x000000000ef12000-0x000000000ef2bfff]
+Aug 11 17:37:01 uls2204-release kernel: [    0.021244]   node   0: [mem 0x000000000ef31000-0x000000000fee6fff]
+Aug 11 17:37:01 uls2204-release systemd[1]: Found device VMware_Virtual_S 2.
+Aug 11 17:37:01 uls2204-release kernel: [    0.021245]   node   0: [mem 0x000000000ff77000-0x00000000bfffffff]
+Aug 11 17:37:01 uls2204-release kernel: [    0.021247] Initmem setup node 0 [mem 0x0000000000001000-0x00000000bfffffff]
+Aug 11 17:37:01 uls2204-release kernel: [    0.021263] On node 0, zone DMA: 1 pages in unavailable ranges
+Aug 11 17:37:01 uls2204-release kernel: [    0.021308] On node 0, zone DMA: 96 pages in unavailable ranges
+Aug 11 17:37:01 uls2204-release kernel: [    0.021828] On node 0, zone DMA32: 9 pages in unavailable ranges
+Aug 11 17:37:01 uls2204-release kernel: [    0.021830] On node 0, zone DMA32: 10 pages in unavailable ranges
+Aug 11 17:37:01 uls2204-release kernel: [    0.021869] On node 0, zone DMA32: 5 pages in unavailable ranges
+Aug 11 17:37:01 uls2204-release kernel: [    0.027507] On node 0, zone DMA32: 144 pages in unavailable ranges
+Aug 11 17:37:01 uls2204-release kernel: [    0.031917] ACPI: PM-Timer IO Port: 0x448
+Aug 11 17:37:01 uls2204-release systemd[1]: Starting File System Check on /dev/disk/by-uuid/662c05fa-58ed-49d1-a154-efc1a117e7bb...
+Aug 11 17:37:01 uls2204-release kernel: [    0.031926] system APIC only can use physical flat
+Aug 11 17:37:01 uls2204-release kernel: [    0.031939] ACPI: LAPIC_NMI (acpi_id[0x00] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release systemd[1]: Started File System Check Daemon to report status.
+Aug 11 17:37:01 uls2204-release kernel: [    0.031941] ACPI: LAPIC_NMI (acpi_id[0x01] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031942] ACPI: LAPIC_NMI (acpi_id[0x02] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031943] ACPI: LAPIC_NMI (acpi_id[0x03] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031944] ACPI: LAPIC_NMI (acpi_id[0x04] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031945] ACPI: LAPIC_NMI (acpi_id[0x05] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031946] ACPI: LAPIC_NMI (acpi_id[0x06] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release systemd-fsck[660]: fsck.fat 4.2 (2021-01-31)
+Aug 11 17:37:01 uls2204-release kernel: [    0.031947] ACPI: LAPIC_NMI (acpi_id[0x07] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031948] ACPI: LAPIC_NMI (acpi_id[0x08] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031949] ACPI: LAPIC_NMI (acpi_id[0x09] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031950] ACPI: LAPIC_NMI (acpi_id[0x0a] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031951] ACPI: LAPIC_NMI (acpi_id[0x0b] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031952] ACPI: LAPIC_NMI (acpi_id[0x0c] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031953] ACPI: LAPIC_NMI (acpi_id[0x0d] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release systemd-fsck[660]: /dev/sda1: 11 files, 1341/274657 clusters
+Aug 11 17:37:01 uls2204-release systemd[1]: Finished LVM event activation on device 8:3.
+Aug 11 17:37:01 uls2204-release kernel: [    0.031954] ACPI: LAPIC_NMI (acpi_id[0x0e] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031955] ACPI: LAPIC_NMI (acpi_id[0x0f] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031956] ACPI: LAPIC_NMI (acpi_id[0x10] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031957] ACPI: LAPIC_NMI (acpi_id[0x11] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031958] ACPI: LAPIC_NMI (acpi_id[0x12] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031958] ACPI: LAPIC_NMI (acpi_id[0x13] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release systemd[1]: Finished File System Check on /dev/disk/by-uuid/CF36-E9AC.
+Aug 11 17:37:01 uls2204-release kernel: [    0.031959] ACPI: LAPIC_NMI (acpi_id[0x14] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031960] ACPI: LAPIC_NMI (acpi_id[0x15] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031961] ACPI: LAPIC_NMI (acpi_id[0x16] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031962] ACPI: LAPIC_NMI (acpi_id[0x17] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031963] ACPI: LAPIC_NMI (acpi_id[0x18] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031964] ACPI: LAPIC_NMI (acpi_id[0x19] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031965] ACPI: LAPIC_NMI (acpi_id[0x1a] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release systemd-fsck[663]: /dev/sda2: clean, 306/32768 files, 39027/131072 blocks
+Aug 11 17:37:01 uls2204-release kernel: [    0.031966] ACPI: LAPIC_NMI (acpi_id[0x1b] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031967] ACPI: LAPIC_NMI (acpi_id[0x1c] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031968] ACPI: LAPIC_NMI (acpi_id[0x1d] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031969] ACPI: LAPIC_NMI (acpi_id[0x1e] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031969] ACPI: LAPIC_NMI (acpi_id[0x1f] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031970] ACPI: LAPIC_NMI (acpi_id[0x20] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release systemd[1]: Finished File System Check on /dev/disk/by-uuid/662c05fa-58ed-49d1-a154-efc1a117e7bb.
+Aug 11 17:37:01 uls2204-release kernel: [    0.031971] ACPI: LAPIC_NMI (acpi_id[0x21] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031972] ACPI: LAPIC_NMI (acpi_id[0x22] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031973] ACPI: LAPIC_NMI (acpi_id[0x23] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031974] ACPI: LAPIC_NMI (acpi_id[0x24] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031975] ACPI: LAPIC_NMI (acpi_id[0x25] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031976] ACPI: LAPIC_NMI (acpi_id[0x26] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release systemd[1]: Mounting /boot...
+Aug 11 17:37:01 uls2204-release kernel: [    0.031977] ACPI: LAPIC_NMI (acpi_id[0x27] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031978] ACPI: LAPIC_NMI (acpi_id[0x28] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031979] ACPI: LAPIC_NMI (acpi_id[0x29] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release systemd[1]: Mounted /boot.
+Aug 11 17:37:01 uls2204-release kernel: [    0.031980] ACPI: LAPIC_NMI (acpi_id[0x2a] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031981] ACPI: LAPIC_NMI (acpi_id[0x2b] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031981] ACPI: LAPIC_NMI (acpi_id[0x2c] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031982] ACPI: LAPIC_NMI (acpi_id[0x2d] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release systemd[1]: Mounting /boot/efi...
+Aug 11 17:37:01 uls2204-release kernel: [    0.031983] ACPI: LAPIC_NMI (acpi_id[0x2e] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031984] ACPI: LAPIC_NMI (acpi_id[0x2f] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031985] ACPI: LAPIC_NMI (acpi_id[0x30] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031986] ACPI: LAPIC_NMI (acpi_id[0x31] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031987] ACPI: LAPIC_NMI (acpi_id[0x32] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031988] ACPI: LAPIC_NMI (acpi_id[0x33] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Aug 11 17:37:01 uls2204-release kernel: [    0.031989] ACPI: LAPIC_NMI (acpi_id[0x34] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031990] ACPI: LAPIC_NMI (acpi_id[0x35] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031991] ACPI: LAPIC_NMI (acpi_id[0x36] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031992] ACPI: LAPIC_NMI (acpi_id[0x37] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031993] ACPI: LAPIC_NMI (acpi_id[0x38] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release systemd[1]: Mounted /boot/efi.
+Aug 11 17:37:01 uls2204-release kernel: [    0.031994] ACPI: LAPIC_NMI (acpi_id[0x39] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031994] ACPI: LAPIC_NMI (acpi_id[0x3a] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031995] ACPI: LAPIC_NMI (acpi_id[0x3b] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031996] ACPI: LAPIC_NMI (acpi_id[0x3c] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031997] ACPI: LAPIC_NMI (acpi_id[0x3d] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031998] ACPI: LAPIC_NMI (acpi_id[0x3e] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.031999] ACPI: LAPIC_NMI (acpi_id[0x3f] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032000] ACPI: LAPIC_NMI (acpi_id[0x40] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release systemd-udevd[596]: dm-2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/dm-2' failed with exit code 1.
+Aug 11 17:37:01 uls2204-release kernel: [    0.032001] ACPI: LAPIC_NMI (acpi_id[0x41] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032002] ACPI: LAPIC_NMI (acpi_id[0x42] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032003] ACPI: LAPIC_NMI (acpi_id[0x43] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032004] ACPI: LAPIC_NMI (acpi_id[0x44] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release systemd[1]: Found device /dev/disk/by-id/dm-uuid-LVM-cLzsK8qibwPV69U0LX1r2nV9OjThs9r8w7OMYmDtWVjPBYz6mkvAsDZ50699yQma.
+Aug 11 17:37:01 uls2204-release kernel: [    0.032004] ACPI: LAPIC_NMI (acpi_id[0x45] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032005] ACPI: LAPIC_NMI (acpi_id[0x46] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release systemd[1]: Starting File System Check on /dev/disk/by-id/dm-uuid-LVM-cLzsK8qibwPV69U0LX1r2nV9OjThs9r8w7OMYmDtWVjPBYz6mkvAsDZ50699yQma...
+Aug 11 17:37:01 uls2204-release kernel: [    0.032006] ACPI: LAPIC_NMI (acpi_id[0x47] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032007] ACPI: LAPIC_NMI (acpi_id[0x48] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032008] ACPI: LAPIC_NMI (acpi_id[0x49] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032009] ACPI: LAPIC_NMI (acpi_id[0x4a] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032010] ACPI: LAPIC_NMI (acpi_id[0x4b] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032011] ACPI: LAPIC_NMI (acpi_id[0x4c] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032012] ACPI: LAPIC_NMI (acpi_id[0x4d] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release systemd-udevd[594]: dm-1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/dm-1' failed with exit code 1.
+Aug 11 17:37:01 uls2204-release kernel: [    0.032013] ACPI: LAPIC_NMI (acpi_id[0x4e] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032013] ACPI: LAPIC_NMI (acpi_id[0x4f] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032014] ACPI: LAPIC_NMI (acpi_id[0x50] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032015] ACPI: LAPIC_NMI (acpi_id[0x51] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032016] ACPI: LAPIC_NMI (acpi_id[0x52] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032017] ACPI: LAPIC_NMI (acpi_id[0x53] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release systemd-udevd[593]: dm-0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/dm-0' failed with exit code 1.
+Aug 11 17:37:01 uls2204-release kernel: [    0.032018] ACPI: LAPIC_NMI (acpi_id[0x54] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032019] ACPI: LAPIC_NMI (acpi_id[0x55] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032020] ACPI: LAPIC_NMI (acpi_id[0x56] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032021] ACPI: LAPIC_NMI (acpi_id[0x57] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032022] ACPI: LAPIC_NMI (acpi_id[0x58] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032023] ACPI: LAPIC_NMI (acpi_id[0x59] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release systemd[1]: Finished File System Check on /dev/disk/by-id/dm-uuid-LVM-cLzsK8qibwPV69U0LX1r2nV9OjThs9r8w7OMYmDtWVjPBYz6mkvAsDZ50699yQma.
+Aug 11 17:37:01 uls2204-release kernel: [    0.032023] ACPI: LAPIC_NMI (acpi_id[0x5a] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032024] ACPI: LAPIC_NMI (acpi_id[0x5b] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032025] ACPI: LAPIC_NMI (acpi_id[0x5c] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032026] ACPI: LAPIC_NMI (acpi_id[0x5d] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032027] ACPI: LAPIC_NMI (acpi_id[0x5e] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release systemd[1]: Found device /dev/disk/by-id/dm-uuid-LVM-cLzsK8qibwPV69U0LX1r2nV9OjThs9r8J3bLLMbezEZb51hNyp2FM1jRGYqFgBCQ.
+Aug 11 17:37:01 uls2204-release kernel: [    0.032028] ACPI: LAPIC_NMI (acpi_id[0x5f] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032029] ACPI: LAPIC_NMI (acpi_id[0x60] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release systemd[1]: Mounting /home...
+Aug 11 17:37:01 uls2204-release kernel: [    0.032030] ACPI: LAPIC_NMI (acpi_id[0x61] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release systemd[1]: Starting File System Check on /dev/disk/by-id/dm-uuid-LVM-cLzsK8qibwPV69U0LX1r2nV9OjThs9r8J3bLLMbezEZb51hNyp2FM1jRGYqFgBCQ...
+Aug 11 17:37:01 uls2204-release systemd[1]: Finished File System Check on /dev/disk/by-id/dm-uuid-LVM-cLzsK8qibwPV69U0LX1r2nV9OjThs9r8J3bLLMbezEZb51hNyp2FM1jRGYqFgBCQ.
+Aug 11 17:37:01 uls2204-release systemd[1]: Mounting /tmp...
+Aug 11 17:37:01 uls2204-release systemd[1]: Mounted /home.
+Aug 11 17:37:01 uls2204-release systemd[1]: Mounted /tmp.
+Aug 11 17:37:01 uls2204-release systemd[1]: Reached target Local File Systems.
+Aug 11 17:37:01 uls2204-release systemd[1]: Starting Load AppArmor profiles...
+Aug 11 17:37:01 uls2204-release systemd[1]: Starting Set console font and keymap...
+Aug 11 17:37:01 uls2204-release systemd[1]: Starting Create final runtime dir for shutdown pivot root...
+Aug 11 17:37:01 uls2204-release apparmor.systemd[767]: Restarting AppArmor
+Aug 11 17:37:01 uls2204-release apparmor.systemd[767]: Reloading AppArmor profiles
+Aug 11 17:37:01 uls2204-release systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Aug 11 17:37:01 uls2204-release systemd[1]: Condition check resulted in Set Up Additional Binary Formats being skipped.
+Aug 11 17:37:01 uls2204-release systemd[1]: Condition check resulted in Store a System Token in an EFI Variable being skipped.
+Aug 11 17:37:01 uls2204-release kernel: [    0.032031] ACPI: LAPIC_NMI (acpi_id[0x62] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032032] ACPI: LAPIC_NMI (acpi_id[0x63] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032033] ACPI: LAPIC_NMI (acpi_id[0x64] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032034] ACPI: LAPIC_NMI (acpi_id[0x65] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032034] ACPI: LAPIC_NMI (acpi_id[0x66] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032035] ACPI: LAPIC_NMI (acpi_id[0x67] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032036] ACPI: LAPIC_NMI (acpi_id[0x68] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032037] ACPI: LAPIC_NMI (acpi_id[0x69] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032038] ACPI: LAPIC_NMI (acpi_id[0x6a] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032039] ACPI: LAPIC_NMI (acpi_id[0x6b] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release systemd[1]: Condition check resulted in Commit a transient machine-id on disk being skipped.
+Aug 11 17:37:01 uls2204-release kernel: [    0.032040] ACPI: LAPIC_NMI (acpi_id[0x6c] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032041] ACPI: LAPIC_NMI (acpi_id[0x6d] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release systemd[1]: Starting Create Volatile Files and Directories...
+Aug 11 17:37:01 uls2204-release kernel: [    0.032042] ACPI: LAPIC_NMI (acpi_id[0x6e] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032043] ACPI: LAPIC_NMI (acpi_id[0x6f] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032044] ACPI: LAPIC_NMI (acpi_id[0x70] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032044] ACPI: LAPIC_NMI (acpi_id[0x71] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032045] ACPI: LAPIC_NMI (acpi_id[0x72] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032046] ACPI: LAPIC_NMI (acpi_id[0x73] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release systemd[1]: Starting Uncomplicated firewall...
+Aug 11 17:37:01 uls2204-release kernel: [    0.032047] ACPI: LAPIC_NMI (acpi_id[0x74] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release systemd[1]: Finished Create final runtime dir for shutdown pivot root.
+Aug 11 17:37:01 uls2204-release kernel: [    0.032048] ACPI: LAPIC_NMI (acpi_id[0x75] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032049] ACPI: LAPIC_NMI (acpi_id[0x76] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032050] ACPI: LAPIC_NMI (acpi_id[0x77] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032051] ACPI: LAPIC_NMI (acpi_id[0x78] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032052] ACPI: LAPIC_NMI (acpi_id[0x79] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release systemd[1]: Finished Tell Plymouth To Write Out Runtime Data.
+Aug 11 17:37:01 uls2204-release kernel: [    0.032053] ACPI: LAPIC_NMI (acpi_id[0x7a] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032054] ACPI: LAPIC_NMI (acpi_id[0x7b] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release systemd[1]: Finished Uncomplicated firewall.
+Aug 11 17:37:01 uls2204-release kernel: [    0.032054] ACPI: LAPIC_NMI (acpi_id[0x7c] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032055] ACPI: LAPIC_NMI (acpi_id[0x7d] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032056] ACPI: LAPIC_NMI (acpi_id[0x7e] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032057] ACPI: LAPIC_NMI (acpi_id[0x7f] high edge lint[0x1])
+Aug 11 17:37:01 uls2204-release kernel: [    0.032104] IOAPIC[0]: apic_id 128, version 32, address 0xfec00000, GSI 0-23
+Aug 11 17:37:01 uls2204-release systemd[1]: Finished Create Volatile Files and Directories.
+Aug 11 17:37:01 uls2204-release kernel: [    0.032120] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 high edge)
+Aug 11 17:37:01 uls2204-release kernel: [    0.032126] ACPI: Using ACPI (MADT) for SMP configuration information
+Aug 11 17:37:01 uls2204-release kernel: [    0.032128] ACPI: HPET id: 0x8086af01 base: 0xfed00000
+Aug 11 17:37:01 uls2204-release kernel: [    0.032135] TSC deadline timer available
+Aug 11 17:37:01 uls2204-release kernel: [    0.032148] smpboot: Allowing 128 CPUs, 126 hotplug CPUs
+Aug 11 17:37:01 uls2204-release systemd[1]: Starting Network Time Synchronization...
+Aug 11 17:37:01 uls2204-release kernel: [    0.032169] PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Aug 11 17:37:01 uls2204-release kernel: [    0.032172] PM: hibernation: Registered nosave memory: [mem 0x000a0000-0x000bffff]
+Aug 11 17:37:01 uls2204-release systemd[1]: Starting Record System Boot/Shutdown in UTMP...
+Aug 11 17:37:01 uls2204-release kernel: [    0.032173] PM: hibernation: Registered nosave memory: [mem 0x000c0000-0x000fffff]
+Aug 11 17:37:01 uls2204-release kernel: [    0.032175] PM: hibernation: Registered nosave memory: [mem 0x0e4cd000-0x0e4cdfff]
+Aug 11 17:37:01 uls2204-release kernel: [    0.032177] PM: hibernation: Registered nosave memory: [mem 0x0e4cf000-0x0e4cffff]
+Aug 11 17:37:01 uls2204-release kernel: [    0.032178] PM: hibernation: Registered nosave memory: [mem 0x0e4d0000-0x0e4d0fff]
+Aug 11 17:37:01 uls2204-release kernel: [    0.032179] PM: hibernation: Registered nosave memory: [mem 0x0e4d1000-0x0e4d1fff]
+Aug 11 17:37:01 uls2204-release kernel: [    0.032180] PM: hibernation: Registered nosave memory: [mem 0x0e4d2000-0x0e4d2fff]
+Aug 11 17:37:01 uls2204-release systemd[1]: Finished Record System Boot/Shutdown in UTMP.
+Aug 11 17:37:01 uls2204-release systemd[1]: Started Network Time Synchronization.
+Aug 11 17:37:01 uls2204-release systemd[1]: Reached target System Time Set.
+Aug 11 17:37:01 uls2204-release apparmor.systemd[805]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+Aug 11 17:37:01 uls2204-release systemd[1]: Finished Load AppArmor profiles.
+Aug 11 17:37:01 uls2204-release systemd[1]: Starting Load AppArmor profiles managed internally by snapd...
+Aug 11 17:37:01 uls2204-release systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+Aug 11 17:37:01 uls2204-release multipathd[570]: sda: failed to get udev uid: No data available
+Aug 11 17:37:01 uls2204-release multipathd[570]: sda: failed to get path uid
+Aug 11 17:37:01 uls2204-release multipathd[570]: uevent trigger error
+Aug 11 17:37:01 uls2204-release systemd[1]: Started Service for virtual machines hosted on VMware.
+Aug 11 17:37:01 uls2204-release systemd[1]: Starting Initial cloud-init job (pre-networking)...
+Aug 11 17:37:01 uls2204-release VGAuthService[917]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+Aug 11 17:37:01 uls2204-release VGAuthService[917]: Core dump limit set to -1
+Aug 11 17:37:01 uls2204-release VGAuthService[917]: Cannot load message catalog for domain 'VGAuthService', language 'C', catalog dir '/usr/share/open-vm-tools'.
+Aug 11 17:37:01 uls2204-release VGAuthService[917]: INIT SERVICE
+Aug 11 17:37:01 uls2204-release VGAuthService[917]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+Aug 11 17:37:01 uls2204-release VGAuthService[917]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+Aug 11 17:37:01 uls2204-release VGAuthService[917]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+Aug 11 17:37:01 uls2204-release VGAuthService[917]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+Aug 11 17:37:01 uls2204-release VGAuthService[917]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+Aug 11 17:37:01 uls2204-release VGAuthService[917]: BEGIN SERVICE
+Aug 11 17:37:01 uls2204-release systemd[1]: Finished Set console font and keymap.
+Aug 11 17:37:01 uls2204-release cloud-init[1012]: Cloud-init v. 22.2-0ubuntu1~22.04.3 running 'init-local' at Thu, 11 Aug 2022 17:36:56 +0000. Up 11.50 seconds.
+Aug 11 17:37:01 uls2204-release systemd[1]: Finished Initial cloud-init job (pre-networking).
+Aug 11 17:37:01 uls2204-release systemd[1]: Reached target Preparation for Network.
+Aug 11 17:37:01 uls2204-release systemd[1]: Starting Network Configuration...
+Aug 11 17:37:01 uls2204-release systemd-networkd[1013]: lo: Link UP
+Aug 11 17:37:01 uls2204-release systemd-networkd[1013]: lo: Gained carrier
+Aug 11 17:37:01 uls2204-release systemd-networkd[1013]: Enumeration completed
+Aug 11 17:37:01 uls2204-release systemd[1]: Started Network Configuration.
+Aug 11 17:37:01 uls2204-release systemd[1]: Starting Wait for Network to be Configured...
+Aug 11 17:37:01 uls2204-release systemd-networkd[1013]: ens33: Link UP
+Aug 11 17:37:01 uls2204-release systemd[1]: Starting Network Name Resolution...
+Aug 11 17:37:01 uls2204-release systemd-networkd[1013]: ens33: Gained carrier
+Aug 11 17:37:01 uls2204-release systemd-resolved[1015]: Positive Trust Anchors:
+Aug 11 17:37:01 uls2204-release systemd-resolved[1015]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d
+Aug 11 17:37:01 uls2204-release systemd-resolved[1015]: Negative trust anchors: home.arpa 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr.arpa 20.172.in-addr.arpa 21.172.in-addr.arpa 22.172.in-addr.arpa 23.172.in-addr.arpa 24.172.in-addr.arpa 25.172.in-addr.arpa 26.172.in-addr.arpa 27.172.in-addr.arpa 28.172.in-addr.arpa 29.172.in-addr.arpa 30.172.in-addr.arpa 31.172.in-addr.arpa 168.192.in-addr.arpa d.f.ip6.arpa corp home internal intranet lan local private test
+Aug 11 17:37:01 uls2204-release systemd-resolved[1015]: Using system hostname 'uls2204-release'.
+Aug 11 17:37:01 uls2204-release systemd[1]: Started Network Name Resolution.
+Aug 11 17:37:01 uls2204-release systemd[1]: Reached target Network.
+Aug 11 17:37:01 uls2204-release systemd[1]: Reached target Host and Network Name Lookups.
+Aug 11 17:37:01 uls2204-release systemd-networkd[1013]: ens33: DHCPv4 address 192.168.1.45/24 via 192.168.1.1
+Aug 11 17:37:01 uls2204-release systemd-timesyncd[787]: Network configuration changed, trying to establish connection.
+Aug 11 17:37:01 uls2204-release systemd[1]: Finished Load AppArmor profiles managed internally by snapd.
+Aug 11 17:37:01 uls2204-release systemd-networkd[1013]: ens33: Gained IPv6LL
+Aug 11 17:37:01 uls2204-release systemd-timesyncd[787]: Network configuration changed, trying to establish connection.
+Aug 11 17:37:01 uls2204-release systemd-networkd-wait-online[1014]: managing: ens33
+Aug 11 17:37:01 uls2204-release systemd[1]: Finished Wait for Network to be Configured.
+Aug 11 17:37:01 uls2204-release systemd[1]: Starting Initial cloud-init job (metadata service crawler)...
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: Cloud-init v. 22.2-0ubuntu1~22.04.3 running 'init' at Thu, 11 Aug 2022 17:36:58 +0000. Up 13.12 seconds.
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: ci-info: ++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: ci-info: | Device |  Up  |           Address           |      Mask     | Scope  |     Hw-Address    |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: ci-info: | ens33  | True |         192.168.1.45        | 255.255.255.0 | global | 00:50:56:2b:9b:b4 |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: ci-info: | ens33  | True | fe80::250:56ff:fe2b:9bb4/64 |       .       |  link  | 00:50:56:2b:9b:b4 |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: ci-info: |   lo   | True |          127.0.0.1          |   255.0.0.0   |  host  |         .         |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: ci-info: |   lo   | True |           ::1/128           |       .       |  host  |         .         |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: ci-info: +++++++++++++++++++++++++++++++Route IPv4 info++++++++++++++++++++++++++++++++
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: ci-info: +-------+----------------+-------------+-----------------+-----------+-------+
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: ci-info: | Route |  Destination   |   Gateway   |     Genmask     | Interface | Flags |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: ci-info: +-------+----------------+-------------+-----------------+-----------+-------+
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: ci-info: |   0   |    0.0.0.0     | 192.168.1.1 |     0.0.0.0     |   ens33   |   UG  |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: ci-info: |   1   |  192.168.1.0   |   0.0.0.0   |  255.255.255.0  |   ens33   |   U   |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: ci-info: |   2   |  192.168.1.1   |   0.0.0.0   | 255.255.255.255 |   ens33   |   UH  |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: ci-info: |   3   | 195.39.243.252 | 192.168.1.1 | 255.255.255.255 |   ens33   |  UGH  |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: ci-info: |   4   | 195.39.243.253 | 192.168.1.1 | 255.255.255.255 |   ens33   |  UGH  |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: ci-info: +-------+----------------+-------------+-----------------+-----------+-------+
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: ci-info: +-------+-------------+---------+-----------+-------+
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: ci-info: | Route | Destination | Gateway | Interface | Flags |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: ci-info: +-------+-------------+---------+-----------+-------+
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: ci-info: |   1   |  fe80::/64  |    ::   |   ens33   |   U   |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: ci-info: |   3   |    local    |    ::   |   ens33   |   U   |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: ci-info: |   4   |  multicast  |    ::   |   ens33   |   U   |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: ci-info: +-------+-------------+---------+-----------+-------+
+Aug 11 17:37:01 uls2204-release systemd-timesyncd[787]: Network configuration changed, trying to establish connection.
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: Generating public/private rsa key pair.
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: Your identification has been saved in /etc/ssh/ssh_host_rsa_key
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: Your public key has been saved in /etc/ssh/ssh_host_rsa_key.pub
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: The key fingerprint is:
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: SHA256:RIZ+/ILx/vsbjHCWAA2t3iGH/z3kkluNQUD9ukoyfSM root@uls2204-release
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: The key's randomart image is:
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: +---[RSA 3072]----+
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: |      o=o.o.     |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: |      .+o  ..    |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: |     . +o   ..   |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: |      *.=. o  .  |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: |     . XSo+ ..   |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: |      o ==.oo+   |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: |       .ooE=B..  |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: |        .+++=o   |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: |         .=*oo   |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: +----[SHA256]-----+
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: Generating public/private dsa key pair.
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: Your identification has been saved in /etc/ssh/ssh_host_dsa_key
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: Your public key has been saved in /etc/ssh/ssh_host_dsa_key.pub
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: The key fingerprint is:
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: SHA256:kpCefT5yyh/ulWRFkblX/3QphwMeQjh8F3Bn2d7EmCA root@uls2204-release
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: The key's randomart image is:
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: +---[DSA 1024]----+
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: |      . ooEo=Bo+ |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: |     . + o.*=.o.+|
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: |    o   o + +.oo+|
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: |   . + .   o.+.+=|
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: |    o + S o  .+.o|
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: |       + o .    .|
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: |      . = o      |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: |     . = +       |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: |      oo+        |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: +----[SHA256]-----+
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: Generating public/private ecdsa key pair.
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: Your identification has been saved in /etc/ssh/ssh_host_ecdsa_key
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: Your public key has been saved in /etc/ssh/ssh_host_ecdsa_key.pub
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: The key fingerprint is:
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: SHA256:EKxqFfWcSJTn/3hNxHWgCiwtYGgqdLpS7W37NLxS7g8 root@uls2204-release
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: The key's randomart image is:
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: +---[ECDSA 256]---+
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: |   .o+=.      .. |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: | .oo.ooB..   .  o|
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: |.oo. o=oB   .. ..|
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: |o.. +  +.. .  o  |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: |...+ .  S..  .   |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: |..o . o.. .   .  |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: |..   . +E  o o   |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: |      o..+. o .  |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: |       ++...     |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: +----[SHA256]-----+
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: Generating public/private ed25519 key pair.
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: Your identification has been saved in /etc/ssh/ssh_host_ed25519_key
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: Your public key has been saved in /etc/ssh/ssh_host_ed25519_key.pub
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: The key fingerprint is:
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: SHA256:OlgX3xhpsbrwNZaJjM6bWForEkhdi9WiopgZKeGrnQY root@uls2204-release
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: The key's randomart image is:
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: +--[ED25519 256]--+
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: |      .   .      |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: |.    + .   +     |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: |.o. = o . =      |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: |++ + . o * *     |
+Aug 11 17:37:01 uls2204-release cloud-init[1027]: |==o   + S O .    |
+Aug 11 17:37:00 uls2204-release cloud-init[1027]: |E..  = = + .     |
+Aug 11 17:37:00 uls2204-release cloud-init[1027]: |.o o. B o        |
+Aug 11 17:37:00 uls2204-release cloud-init[1027]: |. = .= =         |
+Aug 11 17:37:00 uls2204-release cloud-init[1027]: | . .o.+          |
+Aug 11 17:37:00 uls2204-release systemd[1]: Finished Initial cloud-init job (metadata service crawler).
+Aug 11 17:37:00 uls2204-release cron[1047]: (CRON) INFO (pidfile fd = 3)
+Aug 11 17:37:00 uls2204-release cloud-init[1027]: +----[SHA256]-----+
+Aug 11 17:37:00 uls2204-release systemd[1]: Reached target Cloud-config availability.
+Aug 11 17:37:00 uls2204-release cron[1047]: (CRON) INFO (Running @reboot jobs)
+Aug 11 17:37:00 uls2204-release systemd[1]: Reached target Network is Online.
+Aug 11 17:37:00 uls2204-release dbus-daemon[1048]: [system] AppArmor D-Bus mediation is enabled
+Aug 11 17:37:00 uls2204-release systemd[1]: Reached target System Initialization.
+Aug 11 17:37:00 uls2204-release polkitd[1057]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Aug 11 17:37:00 uls2204-release dbus-daemon[1048]: dbus[1048]: Unknown group "power" in message bus configuration file
+
+Aug 11 17:37:00 uls2204-release systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Aug 11 17:37:00 uls2204-release systemd[1]: Started Trigger to poll for Ubuntu Pro licenses (Only enabled on GCP LTS non-pro).
+Aug 11 17:37:00 uls2204-release systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Aug 11 17:37:00 uls2204-release systemd[1]: Started Daily apt download activities.
+Aug 11 17:37:00 uls2204-release systemd[1]: Started Daily apt upgrade and clean activities.
+Aug 11 17:37:00 uls2204-release systemd[1]: Started Daily dpkg database backup timer.
+Aug 11 17:37:00 uls2204-release systemd[1]: Started Periodic ext4 Online Metadata Check for All Filesystems.
+Aug 11 17:37:00 uls2204-release systemd[1]: Started Discard unused blocks once a week.
+Aug 11 17:37:00 uls2204-release systemd[1]: Started Refresh fwupd metadata regularly.
+Aug 11 17:37:00 uls2204-release systemd[1]: Started Daily rotation of log files.
+Aug 11 17:37:00 uls2204-release systemd[1]: Started Daily man-db regeneration.
+Aug 11 17:37:00 uls2204-release systemd[1]: Started Message of the Day.
+Aug 11 17:37:00 uls2204-release systemd[1]: Condition check resulted in Timer to automatically fetch and run repair assertions being skipped.
+Aug 11 17:37:00 uls2204-release systemd[1]: Started Daily Cleanup of Temporary Directories.
+Aug 11 17:37:00 uls2204-release systemd[1]: Started Ubuntu Advantage Timer for running repeated jobs.
+Aug 11 17:37:00 uls2204-release systemd[1]: Started Download data for packages that failed at package install time.
+Aug 11 17:37:00 uls2204-release systemd[1]: Started Check to see whether there is a new version of Ubuntu available.
+Aug 11 17:37:00 uls2204-release systemd[1]: Reached target Path Units.
+Aug 11 17:37:00 uls2204-release systemd[1]: Reached target Timer Units.
+Aug 11 17:37:00 uls2204-release systemd[1]: Condition check resulted in Unix socket for apport crash forwarding being skipped.
+Aug 11 17:37:00 uls2204-release systemd[1]: Listening on cloud-init hotplug hook socket.
+Aug 11 17:37:00 uls2204-release systemd[1]: Listening on D-Bus System Message Bus Socket.
+Aug 11 17:37:00 uls2204-release systemd[1]: Listening on Open-iSCSI iscsid Socket.
+Aug 11 17:37:00 uls2204-release systemd[1]: Starting Socket activation for snappy daemon...
+Aug 11 17:37:00 uls2204-release systemd[1]: Listening on UUID daemon activation socket.
+Aug 11 17:37:00 uls2204-release systemd[1]: Condition check resulted in Login to default iSCSI targets being skipped.
+Aug 11 17:37:00 uls2204-release systemd[1]: Reached target Preparation for Remote File Systems.
+Aug 11 17:37:00 uls2204-release systemd[1]: Reached target Remote File Systems.
+Aug 11 17:37:00 uls2204-release systemd[1]: Finished Availability of block devices.
+Aug 11 17:37:00 uls2204-release systemd[1]: Listening on Socket activation for snappy daemon.
+Aug 11 17:37:01 uls2204-release kernel: [    0.032181] PM: hibernation: Registered nosave memory: [mem 0x0e4d4000-0x0e4d4fff]
+Aug 11 17:37:01 uls2204-release kernel: [    0.032182] PM: hibernation: Registered nosave memory: [mem 0x0e4d5000-0x0e4d5fff]
+Aug 11 17:37:01 uls2204-release kernel: [    0.032184] PM: hibernation: Registered nosave memory: [mem 0x0e4dd000-0x0e4ddfff]
+Aug 11 17:37:01 uls2204-release kernel: [    0.032185] PM: hibernation: Registered nosave memory: [mem 0x0e4f4000-0x0e4f4fff]
+Aug 11 17:37:01 uls2204-release kernel: [    0.032187] PM: hibernation: Registered nosave memory: [mem 0x0eeec000-0x0eef4fff]
+Aug 11 17:37:01 uls2204-release kernel: [    0.032189] PM: hibernation: Registered nosave memory: [mem 0x0ef08000-0x0ef0cfff]
+Aug 11 17:37:01 uls2204-release kernel: [    0.032190] PM: hibernation: Registered nosave memory: [mem 0x0ef0d000-0x0ef11fff]
+Aug 11 17:37:01 uls2204-release kernel: [    0.032192] PM: hibernation: Registered nosave memory: [mem 0x0ef2c000-0x0ef30fff]
+Aug 11 17:37:01 uls2204-release kernel: [    0.032193] PM: hibernation: Registered nosave memory: [mem 0x0fee7000-0x0ff56fff]
+Aug 11 17:37:01 uls2204-release kernel: [    0.032194] PM: hibernation: Registered nosave memory: [mem 0x0ff57000-0x0ff72fff]
+Aug 11 17:37:01 uls2204-release kernel: [    0.032195] PM: hibernation: Registered nosave memory: [mem 0x0ff73000-0x0ff76fff]
+Aug 11 17:37:01 uls2204-release kernel: [    0.032207] [mem 0xc0000000-0xffbfffff] available for PCI devices
+Aug 11 17:37:01 uls2204-release kernel: [    0.032209] Booting paravirtualized kernel on VMware hypervisor
+Aug 11 17:37:01 uls2204-release kernel: [    0.032212] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Aug 11 17:37:01 uls2204-release kernel: [    0.032220] setup_percpu: NR_CPUS:8192 nr_cpumask_bits:128 nr_cpu_ids:128 nr_node_ids:1
+Aug 11 17:37:01 uls2204-release kernel: [    0.036034] percpu: Embedded 60 pages/cpu s208896 r8192 d28672 u262144
+Aug 11 17:37:01 uls2204-release kernel: [    0.036045] pcpu-alloc: s208896 r8192 d28672 u262144 alloc=1*2097152
+Aug 11 17:37:01 uls2204-release kernel: [    0.036048] pcpu-alloc: [0] 000 001 002 003 004 005 006 007 
+Aug 11 17:37:01 uls2204-release kernel: [    0.036053] pcpu-alloc: [0] 008 009 010 011 012 013 014 015 
+Aug 11 17:37:01 uls2204-release kernel: [    0.036058] pcpu-alloc: [0] 016 017 018 019 020 021 022 023 
+Aug 11 17:37:01 uls2204-release kernel: [    0.036062] pcpu-alloc: [0] 024 025 026 027 028 029 030 031 
+Aug 11 17:37:01 uls2204-release kernel: [    0.036067] pcpu-alloc: [0] 032 033 034 035 036 037 038 039 
+Aug 11 17:37:01 uls2204-release kernel: [    0.036071] pcpu-alloc: [0] 040 041 042 043 044 045 046 047 
+Aug 11 17:37:01 uls2204-release kernel: [    0.036076] pcpu-alloc: [0] 048 049 050 051 052 053 054 055 
+Aug 11 17:37:01 uls2204-release kernel: [    0.036081] pcpu-alloc: [0] 056 057 058 059 060 061 062 063 
+Aug 11 17:37:01 uls2204-release kernel: [    0.036085] pcpu-alloc: [0] 064 065 066 067 068 069 070 071 
+Aug 11 17:37:01 uls2204-release kernel: [    0.036090] pcpu-alloc: [0] 072 073 074 075 076 077 078 079 
+Aug 11 17:37:01 uls2204-release kernel: [    0.036094] pcpu-alloc: [0] 080 081 082 083 084 085 086 087 
+Aug 11 17:37:01 uls2204-release kernel: [    0.036099] pcpu-alloc: [0] 088 089 090 091 092 093 094 095 
+Aug 11 17:37:01 uls2204-release kernel: [    0.036103] pcpu-alloc: [0] 096 097 098 099 100 101 102 103 
+Aug 11 17:37:01 uls2204-release kernel: [    0.036108] pcpu-alloc: [0] 104 105 106 107 108 109 110 111 
+Aug 11 17:37:01 uls2204-release kernel: [    0.036113] pcpu-alloc: [0] 112 113 114 115 116 117 118 119 
+Aug 11 17:37:01 uls2204-release kernel: [    0.036117] pcpu-alloc: [0] 120 121 122 123 124 125 126 127 
+Aug 11 17:37:01 uls2204-release kernel: [    0.036167] Built 1 zonelists, mobility grouping on.  Total pages: 773720
+Aug 11 17:37:01 uls2204-release kernel: [    0.036169] Policy zone: DMA32
+Aug 11 17:37:01 uls2204-release kernel: [    0.036171] Kernel command line: BOOT_IMAGE=/vmlinuz-5.15.0-46-generic root=/dev/mapper/vg0-lv--root ro
+Aug 11 17:37:01 uls2204-release kernel: [    0.036209] Unknown kernel command line parameters "BOOT_IMAGE=/vmlinuz-5.15.0-46-generic", will be passed to user space.
+Aug 11 17:37:01 uls2204-release kernel: [    0.036210] printk: log_buf_len individual max cpu contribution: 4096 bytes
+Aug 11 17:37:01 uls2204-release kernel: [    0.036211] printk: log_buf_len total cpu_extra contributions: 520192 bytes
+Aug 11 17:37:01 uls2204-release kernel: [    0.036212] printk: log_buf_len min size: 262144 bytes
+Aug 11 17:37:01 uls2204-release kernel: [    0.036939] printk: log_buf_len: 1048576 bytes
+Aug 11 17:37:01 uls2204-release kernel: [    0.036941] printk: early log buf free: 234616(89%)
+Aug 11 17:37:01 uls2204-release kernel: [    0.037174] Dentry cache hash table entries: 524288 (order: 10, 4194304 bytes, linear)
+Aug 11 17:37:01 uls2204-release kernel: [    0.037290] Inode-cache hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+Aug 11 17:37:01 uls2204-release kernel: [    0.040530] mem auto-init: stack:off, heap alloc:on, heap free:off
+Aug 11 17:37:01 uls2204-release kernel: [    0.046902] Memory: 2890624K/3144668K available (16393K kernel code, 4382K rwdata, 10800K rodata, 3224K init, 6572K bss, 253784K reserved, 0K cma-reserved)
+Aug 11 17:37:01 uls2204-release kernel: [    0.046909] random: get_random_u64 called from kmem_cache_open+0x2b/0x330 with crng_init=0
+Aug 11 17:37:01 uls2204-release kernel: [    0.047246] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=128, Nodes=1
+Aug 11 17:37:01 uls2204-release kernel: [    0.047267] Kernel/User page tables isolation: enabled
+Aug 11 17:37:01 uls2204-release kernel: [    0.047350] ftrace: allocating 50468 entries in 198 pages
+Aug 11 17:37:01 uls2204-release kernel: [    0.069861] ftrace: allocated 198 pages with 4 groups
+Aug 11 17:37:01 uls2204-release kernel: [    0.070347] rcu: Hierarchical RCU implementation.
+Aug 11 17:37:01 uls2204-release kernel: [    0.070349] rcu: 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=128.
+Aug 11 17:37:01 uls2204-release kernel: [    0.070351] 	Rude variant of Tasks RCU enabled.
+Aug 11 17:37:01 uls2204-release kernel: [    0.070352] 	Tracing variant of Tasks RCU enabled.
+Aug 11 17:37:01 uls2204-release kernel: [    0.070353] rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+Aug 11 17:37:01 uls2204-release kernel: [    0.070354] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=128
+Aug 11 17:37:01 uls2204-release kernel: [    0.074056] NR_IRQS: 524544, nr_irqs: 1448, preallocated irqs: 16
+Aug 11 17:37:01 uls2204-release kernel: [    0.074593] random: crng done (trusting CPU's manufacturer)
+Aug 11 17:37:01 uls2204-release kernel: [    0.074700] Console: colour dummy device 80x25
+Aug 11 17:37:01 uls2204-release kernel: [    0.075203] printk: console [tty0] enabled
+Aug 11 17:37:01 uls2204-release kernel: [    0.075324] ACPI: Core revision 20210730
+Aug 11 17:37:01 uls2204-release kernel: [    0.075830] clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 133484882848 ns
+Aug 11 17:37:00 uls2204-release systemd[1]: Reached target Socket Units.
+Aug 11 17:37:00 uls2204-release systemd[1]: Reached target Basic System.
+Aug 11 17:37:00 uls2204-release systemd[1]: Starting LSB: automatic crash report generation...
+Aug 11 17:37:00 uls2204-release systemd[1]: Started Regular background program processing daemon.
+Aug 11 17:37:00 uls2204-release systemd[1]: Started D-Bus System Message Bus.
+Aug 11 17:37:00 uls2204-release systemd[1]: Started Save initial kernel messages after boot.
+Aug 11 17:37:00 uls2204-release systemd[1]: Starting Remove Stale Online ext4 Metadata Check Snapshots...
+Aug 11 17:37:00 uls2204-release systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
+Aug 11 17:37:00 uls2204-release systemd[1]: Starting Record successful boot for GRUB...
+Aug 11 17:37:00 uls2204-release systemd[1]: Started irqbalance daemon.
+Aug 11 17:37:01 uls2204-release kernel: [    0.075922] APIC: Switch to symmetric I/O mode setup
+Aug 11 17:37:01 uls2204-release kernel: [    0.076207] x2apic enabled
+Aug 11 17:37:00 uls2204-release systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+Aug 11 17:37:01 uls2204-release kernel: [    0.076452] Switched APIC routing to physical x2apic.
+Aug 11 17:37:01 uls2204-release kernel: [    0.077342] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Aug 11 17:37:01 uls2204-release kernel: [    0.077371] clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x21139aef754, max_idle_ns: 440795211890 ns
+Aug 11 17:37:01 uls2204-release kernel: [    0.077381] Calibrating delay loop (skipped) preset value.. 4589.37 BogoMIPS (lpj=9178752)
+Aug 11 17:37:00 uls2204-release systemd[1]: Starting Authorization Manager...
+Aug 11 17:37:01 uls2204-release kernel: [    0.077385] pid_max: default: 131072 minimum: 1024
+Aug 11 17:37:01 uls2204-release kernel: [    0.078227] LSM: Security Framework initializing
+Aug 11 17:37:01 uls2204-release kernel: [    0.078246] landlock: Up and running.
+Aug 11 17:37:01 uls2204-release kernel: [    0.078247] Yama: becoming mindful.
+Aug 11 17:37:01 uls2204-release kernel: [    0.078280] AppArmor: AppArmor initialized
+Aug 11 17:37:01 uls2204-release kernel: [    0.078346] Mount-cache hash table entries: 8192 (order: 4, 65536 bytes, linear)
+Aug 11 17:37:00 uls2204-release systemd[1]: Starting Pollinate to seed the pseudo random number generator...
+Aug 11 17:37:00 uls2204-release systemd[1]: Starting System Logging Service...
+Aug 11 17:37:01 uls2204-release kernel: [    0.078356] Mountpoint-cache hash table entries: 8192 (order: 4, 65536 bytes, linear)
+Aug 11 17:37:01 uls2204-release kernel: [    0.078753] Disabled fast string operations
+Aug 11 17:37:01 uls2204-release kernel: [    0.078831] Last level iTLB entries: 4KB 1024, 2MB 1024, 4MB 1024
+Aug 11 17:37:01 uls2204-release kernel: [    0.078834] Last level dTLB entries: 4KB 1024, 2MB 1024, 4MB 1024, 1GB 4
+Aug 11 17:37:01 uls2204-release kernel: [    0.078839] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+Aug 11 17:37:01 uls2204-release kernel: [    0.078843] Spectre V2 : Mitigation: IBRS
+Aug 11 17:37:00 uls2204-release systemd[1]: Starting Secure Boot updates for DB and DBX...
+Aug 11 17:37:01 uls2204-release kernel: [    0.078849] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+Aug 11 17:37:01 uls2204-release kernel: [    0.078859] RETBleed: Mitigation: IBRS
+Aug 11 17:37:01 uls2204-release kernel: [    0.078867] Spectre V2 : mitigation: Enabling conditional Indirect Branch Prediction Barrier
+Aug 11 17:37:01 uls2204-release kernel: [    0.078878] Speculative Store Bypass: Mitigation: Speculative Store Bypass disabled via prctl and seccomp
+Aug 11 17:37:01 uls2204-release kernel: [    0.078893] MDS: Mitigation: Clear CPU buffers
+Aug 11 17:37:01 uls2204-release kernel: [    0.078900] SRBDS: Unknown: Dependent on hypervisor status
+Aug 11 17:37:01 uls2204-release kernel: [    0.139361] Freeing SMP alternatives memory: 40K
+Aug 11 17:37:01 uls2204-release kernel: [    0.139725] smpboot: CPU0: Intel(R) Core(TM) i7-4850HQ CPU @ 2.30GHz (family: 0x6, model: 0x46, stepping: 0x1)
+Aug 11 17:37:01 uls2204-release kernel: [    0.140119] Performance Events: Haswell events, core PMU driver.
+Aug 11 17:37:01 uls2204-release kernel: [    0.140175] core: CPUID marked event: 'cpu cycles' unavailable
+Aug 11 17:37:01 uls2204-release kernel: [    0.140181] core: CPUID marked event: 'instructions' unavailable
+Aug 11 17:37:01 uls2204-release kernel: [    0.140187] core: CPUID marked event: 'bus cycles' unavailable
+Aug 11 17:37:01 uls2204-release kernel: [    0.140194] core: CPUID marked event: 'cache references' unavailable
+Aug 11 17:37:00 uls2204-release systemd[1]: Condition check resulted in Automatically repair incorrect owner/permissions on core devices being skipped.
+Aug 11 17:37:00 uls2204-release systemd[1]: Condition check resulted in Wait for the Ubuntu Core chooser trigger being skipped.
+Aug 11 17:37:00 uls2204-release systemd[1]: Starting Snap Daemon...
+Aug 11 17:37:00 uls2204-release systemd[1]: Starting User Login Management...
+Aug 11 17:37:00 uls2204-release systemd[1]: Starting Permit User Sessions...
+Aug 11 17:37:00 uls2204-release systemd[1]: Condition check resulted in Thermal Daemon Service being skipped.
+Aug 11 17:37:00 uls2204-release systemd[1]: Condition check resulted in Ubuntu Advantage reboot cmds being skipped.
+Aug 11 17:37:01 uls2204-release snapd[1064]: AppArmor status: apparmor is enabled and all features are available
+Aug 11 17:37:01 uls2204-release systemd[1]: Starting Disk Manager...
+Aug 11 17:37:01 uls2204-release systemd[1]: e2scrub_reap.service: Deactivated successfully.
+Aug 11 17:37:01 uls2204-release systemd[1]: Finished Remove Stale Online ext4 Metadata Check Snapshots.
+Aug 11 17:37:01 uls2204-release networkd-dispatcher[1054]: No valid path found for iwconfig
+Aug 11 17:37:01 uls2204-release networkd-dispatcher[1054]: No valid path found for iw
+Aug 11 17:37:01 uls2204-release udisksd[1079]: udisks daemon version 2.9.4 starting
+Aug 11 17:37:01 uls2204-release systemd[1]: Finished Permit User Sessions.
+Aug 11 17:37:01 uls2204-release snapd[1064]: overlord.go:263: Acquiring state lock file
+Aug 11 17:37:01 uls2204-release snapd[1064]: overlord.go:268: Acquired state lock file
+Aug 11 17:37:01 uls2204-release systemd[1]: Started Dispatcher daemon for systemd-networkd.
+Aug 11 17:37:01 uls2204-release rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2112.0]
+Aug 11 17:37:01 uls2204-release rsyslogd: rsyslogd's groupid changed to 113
+Aug 11 17:37:01 uls2204-release rsyslogd: rsyslogd's userid changed to 107
+Aug 11 17:37:01 uls2204-release rsyslogd: [origin software="rsyslogd" swVersion="8.2112.0" x-pid="1062" x-info="https://www.rsyslog.com"] start
+Aug 11 17:37:01 uls2204-release systemd[1]: Started System Logging Service.
+Aug 11 17:37:01 uls2204-release kernel: [    0.140200] core: CPUID marked event: 'cache misses' unavailable
+Aug 11 17:37:01 uls2204-release kernel: [    0.140206] core: CPUID marked event: 'branch instructions' unavailable
+Aug 11 17:37:01 uls2204-release kernel: [    0.140213] core: CPUID marked event: 'branch misses' unavailable
+Aug 11 17:37:01 uls2204-release kernel: [    0.140220] ... version:                1
+Aug 11 17:37:01 uls2204-release kernel: [    0.140226] ... bit width:              48
+Aug 11 17:37:01 uls2204-release kernel: [    0.140231] ... generic registers:      4
+Aug 11 17:37:01 uls2204-release kernel: [    0.140236] ... value mask:             0000ffffffffffff
+Aug 11 17:37:01 uls2204-release kernel: [    0.140243] ... max period:             000000007fffffff
+Aug 11 17:37:01 uls2204-release kernel: [    0.140249] ... fixed-purpose events:   0
+Aug 11 17:37:01 uls2204-release kernel: [    0.140254] ... event mask:             000000000000000f
+Aug 11 17:37:01 uls2204-release kernel: [    0.140569] rcu: Hierarchical SRCU implementation.
+Aug 11 17:37:01 uls2204-release kernel: [    0.141376] NMI watchdog: Perf NMI watchdog permanently disabled
+Aug 11 17:37:01 uls2204-release kernel: [    0.141376] smp: Bringing up secondary CPUs ...
+Aug 11 17:37:01 uls2204-release kernel: [    0.141396] x86: Booting SMP configuration:
+Aug 11 17:37:01 uls2204-release kernel: [    0.141402] .... node  #0, CPUs:          #1
+Aug 11 17:37:01 uls2204-release kernel: [    0.006884] Disabled fast string operations
+Aug 11 17:37:01 uls2204-release kernel: [    0.006884] smpboot: CPU 1 Converting physical 2 to logical package 1
+Aug 11 17:37:01 uls2204-release kernel: [    0.006884] smpboot: CPU 1 Converting physical 0 to logical die 1
+Aug 11 17:37:01 uls2204-release kernel: [    0.142030] smp: Brought up 1 node, 2 CPUs
+Aug 11 17:37:01 uls2204-release kernel: [    0.142030] smpboot: Max logical packages: 128
+Aug 11 17:37:01 uls2204-release kernel: [    0.142030] smpboot: Total of 2 processors activated (9178.75 BogoMIPS)
+Aug 11 17:37:01 uls2204-release kernel: [    0.142559] devtmpfs: initialized
+Aug 11 17:37:01 uls2204-release kernel: [    0.142559] x86/mm: Memory block size: 128MB
+Aug 11 17:37:01 uls2204-release kernel: [    0.142559] ACPI: PM: Registering ACPI NVS region [mem 0x00000000-0x00000fff] (4096 bytes)
+Aug 11 17:37:01 uls2204-release kernel: [    0.142559] ACPI: PM: Registering ACPI NVS region [mem 0x0ef0d000-0x0ef11fff] (20480 bytes)
+Aug 11 17:37:01 uls2204-release kernel: [    0.142559] ACPI: PM: Registering ACPI NVS region [mem 0x0ff73000-0x0ff76fff] (16384 bytes)
+Aug 11 17:37:01 uls2204-release kernel: [    0.142559] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Aug 11 17:37:01 uls2204-release kernel: [    0.146142] futex hash table entries: 32768 (order: 9, 2097152 bytes, linear)
+Aug 11 17:37:01 uls2204-release kernel: [    0.146628] pinctrl core: initialized pinctrl subsystem
+Aug 11 17:37:01 uls2204-release kernel: [    0.146978] PM: RTC time: 17:36:45, date: 2022-08-11
+Aug 11 17:37:01 uls2204-release kernel: [    0.147514] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+Aug 11 17:37:01 uls2204-release kernel: [    0.148059] DMA: preallocated 512 KiB GFP_KERNEL pool for atomic allocations
+Aug 11 17:37:01 uls2204-release kernel: [    0.148336] DMA: preallocated 512 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+Aug 11 17:37:01 uls2204-release kernel: [    0.148570] DMA: preallocated 512 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+Aug 11 17:37:01 uls2204-release kernel: [    0.148590] audit: initializing netlink subsys (disabled)
+Aug 11 17:37:01 uls2204-release kernel: [    0.148655] audit: type=2000 audit(1660239405.068:1): state=initialized audit_enabled=0 res=1
+Aug 11 17:37:01 uls2204-release kernel: [    0.148655] thermal_sys: Registered thermal governor 'fair_share'
+Aug 11 17:37:01 uls2204-release kernel: [    0.148655] thermal_sys: Registered thermal governor 'bang_bang'
+Aug 11 17:37:01 uls2204-release kernel: [    0.148655] thermal_sys: Registered thermal governor 'step_wise'
+Aug 11 17:37:01 uls2204-release kernel: [    0.148655] thermal_sys: Registered thermal governor 'user_space'
+Aug 11 17:37:01 uls2204-release kernel: [    0.148655] thermal_sys: Registered thermal governor 'power_allocator'
+Aug 11 17:37:01 uls2204-release kernel: [    0.148655] EISA bus registered
+Aug 11 17:37:01 uls2204-release kernel: [    0.148655] cpuidle: using governor ladder
+Aug 11 17:37:01 uls2204-release kernel: [    0.149387] cpuidle: using governor menu
+Aug 11 17:37:01 uls2204-release kernel: [    0.149533] ACPI: bus type PCI registered
+Aug 11 17:37:01 uls2204-release kernel: [    0.149539] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Aug 11 17:37:01 uls2204-release kernel: [    0.149885] PCI: MMCONFIG for domain 0000 [bus 00-7f] at [mem 0xe0000000-0xe7ffffff] (base 0xe0000000)
+Aug 11 17:37:01 uls2204-release kernel: [    0.149900] PCI: not using MMCONFIG
+Aug 11 17:37:01 uls2204-release kernel: [    0.149909] PCI: Using configuration type 1 for base access
+Aug 11 17:37:01 uls2204-release kernel: [    0.150002] core: PMU erratum BJ122, BV98, HSD29 workaround disabled, HT off
+Aug 11 17:37:01 uls2204-release kernel: [    0.153991] Kprobes globally optimized
+Aug 11 17:37:01 uls2204-release kernel: [    0.154058] HugeTLB registered 1.00 GiB page size, pre-allocated 0 pages
+Aug 11 17:37:01 uls2204-release kernel: [    0.154058] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+Aug 11 17:37:01 uls2204-release kernel: [    0.161557] fbcon: Taking over console
+Aug 11 17:37:01 uls2204-release kernel: [    0.161644] ACPI: Added _OSI(Module Device)
+Aug 11 17:37:01 uls2204-release kernel: [    0.161651] ACPI: Added _OSI(Processor Device)
+Aug 11 17:37:01 uls2204-release kernel: [    0.161657] ACPI: Added _OSI(3.0 _SCP Extensions)
+Aug 11 17:37:01 uls2204-release kernel: [    0.161664] ACPI: Added _OSI(Processor Aggregator Device)
+Aug 11 17:37:01 uls2204-release kernel: [    0.161671] ACPI: Added _OSI(Linux-Dell-Video)
+Aug 11 17:37:01 uls2204-release kernel: [    0.161678] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+Aug 11 17:37:01 uls2204-release kernel: [    0.161685] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+Aug 11 17:37:01 uls2204-release kernel: [    0.202774] ACPI: 1 ACPI AML tables successfully acquired and loaded
+Aug 11 17:37:01 uls2204-release kernel: [    0.207011] ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+Aug 11 17:37:01 uls2204-release kernel: [    0.207045] ACPI: BIOS _OSI(Darwin) query ignored
+Aug 11 17:37:01 uls2204-release kernel: [    0.294403] ACPI: Interpreter enabled
+Aug 11 17:37:01 uls2204-release kernel: [    0.294452] ACPI: PM: (supports S0 S1 S4 S5)
+Aug 11 17:37:01 uls2204-release kernel: [    0.294459] ACPI: Using IOAPIC for interrupt routing
+Aug 11 17:37:01 uls2204-release kernel: [    0.294515] PCI: MMCONFIG for domain 0000 [bus 00-7f] at [mem 0xe0000000-0xe7ffffff] (base 0xe0000000)
+Aug 11 17:37:01 uls2204-release kernel: [    0.297725] PCI: MMCONFIG at [mem 0xe0000000-0xe7ffffff] reserved in ACPI motherboard resources
+Aug 11 17:37:01 uls2204-release kernel: [    0.297756] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Aug 11 17:37:01 uls2204-release kernel: [    0.300183] ACPI: Enabled 4 GPEs in block 00 to 0F
+Aug 11 17:37:01 uls2204-release kernel: [    0.410483] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-7f])
+Aug 11 17:37:01 uls2204-release kernel: [    0.410504] acpi PNP0A03:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI EDR HPX-Type3]
+Aug 11 17:37:01 uls2204-release kernel: [    0.411228] acpi PNP0A03:00: _OSC: platform does not support [AER LTR DPC]
+Aug 11 17:37:01 uls2204-release kernel: [    0.412065] acpi PNP0A03:00: _OSC: OS now controls [PCIeHotplug SHPCHotplug PME PCIeCapability]
+Aug 11 17:37:01 uls2204-release kernel: [    0.414246] PCI host bridge to bus 0000:00
+Aug 11 17:37:01 uls2204-release kernel: [    0.414255] pci_bus 0000:00: root bus resource [bus 00-7f]
+Aug 11 17:37:01 uls2204-release kernel: [    0.414264] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Aug 11 17:37:01 uls2204-release kernel: [    0.414273] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Aug 11 17:37:01 uls2204-release kernel: [    0.414282] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Aug 11 17:37:01 uls2204-release kernel: [    0.414293] pci_bus 0000:00: root bus resource [mem 0x000c4000-0x000cbfff window]
+Aug 11 17:37:01 uls2204-release kernel: [    0.414303] pci_bus 0000:00: root bus resource [mem 0x000d4000-0x000dbfff window]
+Aug 11 17:37:01 uls2204-release kernel: [    0.414313] pci_bus 0000:00: root bus resource [mem 0x000e4000-0x000effff window]
+Aug 11 17:37:01 uls2204-release kernel: [    0.414324] pci_bus 0000:00: root bus resource [mem 0xc0000000-0xefffffff window]
+Aug 11 17:37:01 uls2204-release kernel: [    0.414345] pci_bus 0000:00: root bus resource [mem 0xfa400000-0xfebfffff window]
+Aug 11 17:37:01 uls2204-release kernel: [    0.414366] pci_bus 0000:00: root bus resource [mem 0xfec10000-0xfed3ffff window]
+Aug 11 17:37:01 uls2204-release kernel: [    0.414376] pci_bus 0000:00: root bus resource [mem 0xfed45000-0xfedfffff window]
+Aug 11 17:37:01 uls2204-release kernel: [    0.414387] pci_bus 0000:00: root bus resource [mem 0xfef00000-0xffdfffff window]
+Aug 11 17:37:01 uls2204-release kernel: [    0.414397] pci_bus 0000:00: root bus resource [mem 0xf0000000-0xfa3fffff pref window]
+Aug 11 17:37:01 uls2204-release kernel: [    0.414787] pci 0000:00:00.0: [8086:7190] type 00 class 0x060000
+Aug 11 17:37:01 uls2204-release kernel: [    0.416591] pci 0000:00:01.0: [8086:7191] type 01 class 0x060400
+Aug 11 17:37:01 uls2204-release kernel: [    0.418848] pci 0000:00:07.0: [8086:7110] type 00 class 0x060100
+Aug 11 17:37:01 uls2204-release kernel: [    0.420453] pci 0000:00:07.1: [8086:7111] type 00 class 0x01018a
+Aug 11 17:37:01 uls2204-release kernel: [    0.422143] pci 0000:00:07.1: reg 0x20: [io  0x2150-0x215f]
+Aug 11 17:37:01 uls2204-release kernel: [    0.422786] pci 0000:00:07.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Aug 11 17:37:01 uls2204-release kernel: [    0.422796] pci 0000:00:07.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Aug 11 17:37:01 uls2204-release kernel: [    0.422804] pci 0000:00:07.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Aug 11 17:37:01 uls2204-release kernel: [    0.422813] pci 0000:00:07.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Aug 11 17:37:01 uls2204-release kernel: [    0.423769] pci 0000:00:07.3: [8086:7113] type 00 class 0x068000
+Aug 11 17:37:01 uls2204-release kernel: [    0.424663] pci 0000:00:07.3: quirk: [io  0x0440-0x047f] claimed by PIIX4 ACPI
+Aug 11 17:37:01 uls2204-release kernel: [    0.425549] pci 0000:00:07.7: [15ad:0740] type 00 class 0x088000
+Aug 11 17:37:01 uls2204-release kernel: [    0.425728] pci 0000:00:07.7: reg 0x10: [io  0x2100-0x213f]
+Aug 11 17:37:01 uls2204-release kernel: [    0.425875] pci 0000:00:07.7: reg 0x14: [mem 0xffbe0000-0xffbe1fff 64bit]
+Aug 11 17:37:01 uls2204-release kernel: [    0.428743] pci 0000:00:0f.0: [15ad:0405] type 00 class 0x030000
+Aug 11 17:37:01 uls2204-release kernel: [    0.430460] pci 0000:00:0f.0: reg 0x10: [io  0x2140-0x214f]
+Aug 11 17:37:01 uls2204-release kernel: [    0.432461] pci 0000:00:0f.0: reg 0x14: [mem 0xf0000000-0xf7ffffff pref]
+Aug 11 17:37:01 uls2204-release kernel: [    0.434440] pci 0000:00:0f.0: reg 0x18: [mem 0xfb800000-0xfbffffff]
+Aug 11 17:37:01 uls2204-release kernel: [    0.442354] pci 0000:00:0f.0: reg 0x30: [mem 0xffff8000-0xffffffff pref]
+Aug 11 17:37:01 uls2204-release kernel: [    0.442445] pci 0000:00:0f.0: BAR 1: assigned to efifb
+Aug 11 17:37:01 uls2204-release kernel: [    0.442523] pci 0000:00:0f.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+Aug 11 17:37:01 uls2204-release kernel: [    0.444027] pci 0000:00:10.0: [1000:0030] type 00 class 0x010000
+Aug 11 17:37:01 uls2204-release kernel: [    0.445192] pci 0000:00:10.0: reg 0x10: [io  0x2000-0x20ff]
+Aug 11 17:37:01 uls2204-release kernel: [    0.445885] pci 0000:00:10.0: reg 0x14: [mem 0xffbc0000-0xffbdffff 64bit]
+Aug 11 17:37:01 uls2204-release kernel: [    0.449387] pci 0000:00:10.0: reg 0x1c: [mem 0xffba0000-0xffbbffff 64bit]
+Aug 11 17:37:01 uls2204-release kernel: [    0.451653] pci 0000:00:10.0: reg 0x30: [mem 0xffffc000-0xffffffff pref]
+Aug 11 17:37:01 uls2204-release kernel: [    0.453259] pci 0000:00:11.0: [15ad:0790] type 01 class 0x060401
+Aug 11 17:37:01 uls2204-release kernel: [    0.456038] pci 0000:00:15.0: [15ad:07a0] type 01 class 0x060400
+Aug 11 17:37:01 uls2204-release kernel: [    0.503012] pci 0000:00:17.2: [15ad:07a0] type 01 class 0x060400
+Aug 11 17:37:01 uls2204-release kernel: [    0.522262] pci 0000:00:18.1: PME# supported from D0 D3hot D3cold
+Aug 11 17:37:01 uls2204-release kernel: [    0.523423] pci 0000:00:18.2: [15ad:07a0] type 01 class 0x060400
+Aug 11 17:37:01 uls2204-release kernel: [    0.524737] pci 0000:00:18.2: PME# supported from D0 D3hot D3cold
+Aug 11 17:37:01 uls2204-release kernel: [    0.525904] pci 0000:00:18.3: [15ad:07a0] type 01 class 0x060400
+Aug 11 17:37:01 uls2204-release kernel: [    0.527195] pci 0000:00:18.3: PME# supported from D0 D3hot D3cold
+Aug 11 17:37:01 uls2204-release kernel: [    0.528411] pci 0000:00:18.4: [15ad:07a0] type 01 class 0x060400
+Aug 11 17:37:01 uls2204-release kernel: [    0.529909] pci 0000:00:18.4: PME# supported from D0 D3hot D3cold
+Aug 11 17:37:01 uls2204-release kernel: [    0.531270] pci 0000:00:18.5: [15ad:07a0] type 01 class 0x060400
+Aug 11 17:37:01 uls2204-release kernel: [    0.532532] pci 0000:00:18.5: PME# supported from D0 D3hot D3cold
+Aug 11 17:37:01 uls2204-release kernel: [    0.533670] pci 0000:00:18.6: [15ad:07a0] type 01 class 0x060400
+Aug 11 17:37:01 uls2204-release kernel: [    0.534915] pci 0000:00:18.6: PME# supported from D0 D3hot D3cold
+Aug 11 17:37:01 uls2204-release kernel: [    0.536044] pci 0000:00:18.7: [15ad:07a0] type 01 class 0x060400
+Aug 11 17:37:01 uls2204-release kernel: [    0.537374] pci 0000:00:18.7: PME# supported from D0 D3hot D3cold
+Aug 11 17:37:01 uls2204-release kernel: [    0.539339] pci_bus 0000:01: extended config space not accessible
+Aug 11 17:37:01 uls2204-release kernel: [    0.544330] pci 0000:00:01.0: PCI bridge to [bus 01]
+Aug 11 17:37:01 uls2204-release kernel: [    0.544709] pci_bus 0000:02: extended config space not accessible
+Aug 11 17:37:01 uls2204-release kernel: [    0.545544] acpiphp: Slot [32] registered
+Aug 11 17:37:01 uls2204-release kernel: [    0.547982] pci 0000:02:00.0: [15ad:0774] type 00 class 0x0c0300
+Aug 11 17:37:01 uls2204-release kernel: [    0.549530] pci 0000:02:00.0: reg 0x20: [io  0x1040-0x105f]
+Aug 11 17:37:01 uls2204-release kernel: [    0.552552] pci 0000:02:01.0: [8086:100f] type 00 class 0x020000
+Aug 11 17:37:01 uls2204-release kernel: [    0.553381] pci 0000:02:01.0: reg 0x10: [mem 0xfc000000-0xfc01ffff 64bit]
+Aug 11 17:37:01 uls2204-release kernel: [    0.554251] pci 0000:02:01.0: reg 0x18: [mem 0xfc020000-0xfc02ffff 64bit]
+Aug 11 17:37:01 uls2204-release kernel: [    0.554997] pci 0000:02:01.0: reg 0x20: [io  0x1000-0x103f]
+Aug 11 17:37:01 uls2204-release kernel: [    0.556467] pci 0000:02:01.0: reg 0x30: [mem 0xffff0000-0xffffffff pref]
+Aug 11 17:37:01 uls2204-release kernel: [    0.556973] pci 0000:02:01.0: PME# supported from D0 D3hot D3cold
+Aug 11 17:37:01 uls2204-release kernel: [    0.559038] pci 0000:02:02.0: [15ad:0770] type 00 class 0x0c0320
+Aug 11 17:37:01 uls2204-release kernel: [    0.559662] pci 0000:02:02.0: reg 0x10: [mem 0xfc051000-0xfc051fff]
+Aug 11 17:37:01 uls2204-release kernel: [    0.565275] pci 0000:02:04.0: [15ad:07e0] type 00 class 0x010601
+Aug 11 17:37:01 uls2204-release kernel: [    0.568199] pci 0000:02:04.0: reg 0x24: [mem 0xfc050000-0xfc050fff]
+Aug 11 17:37:01 uls2204-release kernel: [    0.568745] pci 0000:02:04.0: reg 0x30: [mem 0xffff0000-0xffffffff pref]
+Aug 11 17:37:01 uls2204-release kernel: [    0.569427] pci 0000:02:04.0: PME# supported from D3hot
+Aug 11 17:37:01 uls2204-release kernel: [    0.575885] pci 0000:00:11.0: PCI bridge to [bus 02] (subtractive decode)
+Aug 11 17:37:01 uls2204-release kernel: [    0.575928] pci 0000:00:11.0:   bridge window [io  0x1000-0x1fff]
+Aug 11 17:37:01 uls2204-release kernel: [    0.575968] pci 0000:00:11.0:   bridge window [mem 0xfc000000-0xfc9fffff]
+Aug 11 17:37:01 uls2204-release kernel: [    0.576038] pci 0000:00:11.0:   bridge window [mem 0xf8000000-0xf84fffff 64bit pref]
+Aug 11 17:37:01 uls2204-release kernel: [    0.576050] pci 0000:00:11.0:   bridge window [io  0x0000-0x0cf7 window] (subtractive decode)
+Aug 11 17:37:01 uls2204-release kernel: [    0.576061] pci 0000:00:11.0:   bridge window [io  0x0d00-0xffff window] (subtractive decode)
+Aug 11 17:37:01 uls2204-release kernel: [    0.576072] pci 0000:00:11.0:   bridge window [mem 0x000a0000-0x000bffff window] (subtractive decode)
+Aug 11 17:37:01 uls2204-release kernel: [    0.576083] pci 0000:00:11.0:   bridge window [mem 0x000c4000-0x000cbfff window] (subtractive decode)
+Aug 11 17:37:01 uls2204-release kernel: [    0.576094] pci 0000:00:11.0:   bridge window [mem 0x000d4000-0x000dbfff window] (subtractive decode)
+Aug 11 17:37:01 uls2204-release kernel: [    0.576105] pci 0000:00:11.0:   bridge window [mem 0x000e4000-0x000effff window] (subtractive decode)
+Aug 11 17:37:01 uls2204-release kernel: [    0.576116] pci 0000:00:11.0:   bridge window [mem 0xc0000000-0xefffffff window] (subtractive decode)
+Aug 11 17:37:01 uls2204-release kernel: [    0.576127] pci 0000:00:11.0:   bridge window [mem 0xfa400000-0xfebfffff window] (subtractive decode)
+Aug 11 17:37:01 uls2204-release kernel: [    0.576139] pci 0000:00:11.0:   bridge window [mem 0xfec10000-0xfed3ffff window] (subtractive decode)
+Aug 11 17:37:01 uls2204-release kernel: [    0.576150] pci 0000:00:11.0:   bridge window [mem 0xfed45000-0xfedfffff window] (subtractive decode)
+Aug 11 17:37:01 uls2204-release kernel: [    0.576161] pci 0000:00:11.0:   bridge window [mem 0xfef00000-0xffdfffff window] (subtractive decode)
+Aug 11 17:37:01 uls2204-release kernel: [    0.576172] pci 0000:00:11.0:   bridge window [mem 0xf0000000-0xfa3fffff pref window] (subtractive decode)
+Aug 11 17:37:01 uls2204-release kernel: [    0.576891] pci 0000:03:00.0: [15ad:0779] type 00 class 0x0c0330
+Aug 11 17:37:01 uls2204-release kernel: [    0.577381] pci 0000:03:00.0: reg 0x10: [mem 0xfea00000-0xfea1ffff 64bit]
+Aug 11 17:37:01 uls2204-release kernel: [    0.581036] pci 0000:03:00.0: PME# supported from D0 D3hot D3cold
+Aug 11 17:37:01 uls2204-release kernel: [    0.582817] pci 0000:03:00.0: disabling ASPM on pre-1.1 PCIe device.  You can enable it with 'pcie_aspm=force'
+Aug 11 17:37:01 uls2204-release kernel: [    0.587873] pci 0000:00:15.0: PCI bridge to [bus 03]
+Aug 11 17:37:01 uls2204-release kernel: [    0.587946] pci 0000:00:15.0:   bridge window [mem 0xfea00000-0xfeafffff]
+Aug 11 17:37:01 uls2204-release kernel: [    0.593453] pci 0000:00:15.1: PCI bridge to [bus 04]

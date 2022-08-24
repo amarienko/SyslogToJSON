@@ -1,0 +1,13 @@
+Feb 25 06:31:37 freebsd122 newsyslog[604]: logfile first created
+Feb 25 06:31:37 freebsd122 sshd[816]: Server listening on :: port 22.
+Feb 25 06:31:37 freebsd122 sshd[816]: Server listening on 0.0.0.0 port 22.
+Feb 25 06:45:29 freebsd122 login[896]: login on ttyv0 as root
+Feb 25 06:45:29 freebsd122 login[896]: ROOT LOGIN (root) ON ttyv0
+Feb 25 07:12:34 freebsd122 login[931]: login on ttyv0 as root
+Feb 25 07:12:34 freebsd122 login[931]: ROOT LOGIN (root) ON ttyv0
+Feb 25 07:12:39 freebsd122 shutdown[971]: power-down by root: 
+Feb 25 07:12:40 freebsd122 sshd[816]: Received signal 15; terminating.
+Aug 17 15:36:44 freebsd122 sshd[829]: Server listening on :: port 22.
+Aug 17 15:36:44 freebsd122 sshd[829]: Server listening on 0.0.0.0 port 22.
+Aug 17 15:37:27 freebsd122 login[883]: login on ttyv0 as root
+Aug 17 15:37:27 freebsd122 login[883]: ROOT LOGIN (root) ON ttyv0

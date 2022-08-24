@@ -1,0 +1,425 @@
+Feb 25 06:31:37 freebsd122 newsyslog[604]: logfile first created
+Feb 25 06:31:37 freebsd122 syslogd: kernel boot file is /boot/kernel/kernel
+Feb 25 06:31:37 freebsd122 kernel: Waiting (max 60 seconds) for system process `vnlru' to stop... done
+Feb 25 06:31:37 freebsd122 kernel: Waiting (max 60 seconds) for system process `syncer' to stop... 
+Feb 25 06:31:37 freebsd122 kernel: Syncing disks, vnodes remaining... 0 0 0 0 done
+Feb 25 06:31:37 freebsd122 kernel: Waiting (max 60 seconds) for system thread `bufdaemon' to stop... done
+Feb 25 06:31:37 freebsd122 kernel: Waiting (max 60 seconds) for system thread `bufspacedaemon-0' to stop... done
+Feb 25 06:31:37 freebsd122 kernel: Waiting (max 60 seconds) for system thread `bufspacedaemon-1' to stop... done
+Feb 25 06:31:37 freebsd122 kernel: All buffers synced.
+Feb 25 06:31:37 freebsd122 kernel: Uptime: 32m58s
+Feb 25 06:31:37 freebsd122 kernel: uhid0: detached
+Feb 25 06:31:37 freebsd122 kernel: uhid1: detached
+Feb 25 06:31:37 freebsd122 kernel: ---<<BOOT>>---
+Feb 25 06:31:37 freebsd122 kernel: Copyright (c) 1992-2020 The FreeBSD Project.
+Feb 25 06:31:37 freebsd122 kernel: Copyright (c) 1979, 1980, 1983, 1986, 1988, 1989, 1991, 1992, 1993, 1994
+Feb 25 06:31:37 freebsd122 kernel: 	The Regents of the University of California. All rights reserved.
+Feb 25 06:31:37 freebsd122 kernel: FreeBSD is a registered trademark of The FreeBSD Foundation.
+Feb 25 06:31:37 freebsd122 kernel: FreeBSD 12.2-RELEASE r366954 GENERIC amd64
+Feb 25 06:31:37 freebsd122 kernel: FreeBSD clang version 10.0.1 (git@github.com:llvm/llvm-project.git llvmorg-10.0.1-0-gef32c611aa2)
+Feb 25 06:31:37 freebsd122 kernel: VT(efifb): resolution 1024x768
+Feb 25 06:31:37 freebsd122 kernel: CPU: Intel(R) Core(TM) i7-4850HQ CPU @ 2.30GHz (2294.69-MHz K8-class CPU)
+Feb 25 06:31:37 freebsd122 kernel:   Origin="GenuineIntel"  Id=0x40661  Family=0x6  Model=0x46  Stepping=1
+Feb 25 06:31:37 freebsd122 kernel:   Features=0xf83fbff<FPU,VME,DE,PSE,TSC,MSR,PAE,MCE,CX8,APIC,SEP,MTRR,PGE,MCA,CMOV,PAT,PSE36,MMX,FXSR,SSE,SSE2,SS>
+Feb 25 06:31:37 freebsd122 kernel:   Features2=0xfffa3223<SSE3,PCLMULQDQ,VMX,SSSE3,FMA,CX16,PCID,SSE4.1,SSE4.2,x2APIC,MOVBE,POPCNT,TSCDLT,AESNI,XSAVE,OSXSAVE,AVX,F16C,RDRAND,HV>
+Feb 25 06:31:37 freebsd122 kernel:   AMD Features=0x2c100800<SYSCALL,NX,Page1GB,RDTSCP,LM>
+Feb 25 06:31:37 freebsd122 kernel:   AMD Features2=0x21<LAHF,ABM>
+Feb 25 06:31:37 freebsd122 kernel:   Structured Extended Features=0x27ab<FSGSBASE,TSCADJ,BMI1,AVX2,SMEP,BMI2,ERMS,INVPCID,NFPUSG>
+Feb 25 06:31:37 freebsd122 kernel:   Structured Extended Features3=0xbc000400<MD_CLEAR,IBPB,STIBP,L1DFL,ARCH_CAP,SSBD>
+Feb 25 06:31:37 freebsd122 kernel:   XSAVE Features=0x1<XSAVEOPT>
+Feb 25 06:31:37 freebsd122 kernel:   IA32_ARCH_CAPS=0xc<RSBA,SKIP_L1DFL_VME>
+Feb 25 06:31:37 freebsd122 kernel:   VT-x: PAT,HLT,MTF,PAUSE,EPT,UG,VPID
+Feb 25 06:31:37 freebsd122 kernel:   TSC: P-state invariant
+Feb 25 06:31:37 freebsd122 kernel: Hypervisor: Origin = "VMwareVMware"
+Feb 25 06:31:37 freebsd122 kernel: real memory  = 4294967296 (4096 MB)
+Feb 25 06:31:37 freebsd122 kernel: avail memory = 4095422464 (3905 MB)
+Feb 25 06:31:37 freebsd122 kernel: Event timer "LAPIC" quality 600
+Feb 25 06:31:37 freebsd122 kernel: ACPI APIC Table: <VMWARE EFIAPIC >
+Feb 25 06:31:37 freebsd122 kernel: unexpected cache level 3
+Feb 25 06:31:37 freebsd122 kernel: FreeBSD/SMP: Multiprocessor System Detected: 2 CPUs
+Feb 25 06:31:37 freebsd122 kernel: FreeBSD/SMP: 2 package(s) x 1 core(s)
+Feb 25 06:31:37 freebsd122 kernel: random: unblocking device.
+Feb 25 06:31:37 freebsd122 kernel: ioapic0: MADT APIC ID 2 != hw id 0
+Feb 25 06:31:37 freebsd122 kernel: MADT: Forcing active-low polarity and level trigger for SCI
+Feb 25 06:31:37 freebsd122 kernel: ioapic0 <Version 2.0> irqs 0-23 on motherboard
+Feb 25 06:31:37 freebsd122 kernel: Launching APs: 1
+Feb 25 06:31:37 freebsd122 kernel: random: entropy device external interface
+Feb 25 06:31:37 freebsd122 kernel: kbd1 at kbdmux0
+Feb 25 06:31:37 freebsd122 kernel: 000.000023 [4336] netmap_init               netmap: loaded module
+Feb 25 06:31:37 freebsd122 kernel: [ath_hal] loaded
+Feb 25 06:31:37 freebsd122 kernel: module_register_init: MOD_LOAD (vesa, 0xffffffff81115e40, 0) error 19
+Feb 25 06:31:37 freebsd122 kernel: random: registering fast source Intel Secure Key RNG
+Feb 25 06:31:37 freebsd122 kernel: random: fast provider: "Intel Secure Key RNG"
+Feb 25 06:31:37 freebsd122 kernel: nexus0
+Feb 25 06:31:37 freebsd122 kernel: efirtc0: <EFI Realtime Clock> on motherboard
+Feb 25 06:31:37 freebsd122 kernel: efirtc0: registered as a time-of-day clock, resolution 1.000000s
+Feb 25 06:31:37 freebsd122 kernel: cryptosoft0: <software crypto> on motherboard
+Feb 25 06:31:37 freebsd122 kernel: acpi0: <INTEL 440BX> on motherboard
+Feb 25 06:31:37 freebsd122 kernel: acpi0: Power Button (fixed)
+Feb 25 06:31:37 freebsd122 kernel: hpet0: <High Precision Event Timer> iomem 0xfed00000-0xfed003ff on acpi0
+Feb 25 06:31:37 freebsd122 kernel: Timecounter "HPET" frequency 14318180 Hz quality 950
+Feb 25 06:31:37 freebsd122 kernel: cpu0: <ACPI CPU> numa-domain 0 on acpi0
+Feb 25 06:31:37 freebsd122 kernel: attimer0: <AT timer> port 0x40-0x43 irq 0 on acpi0
+Feb 25 06:31:37 freebsd122 kernel: Timecounter "i8254" frequency 1193182 Hz quality 0
+Feb 25 06:31:37 freebsd122 kernel: Event timer "i8254" frequency 1193182 Hz quality 100
+Feb 25 06:31:37 freebsd122 kernel: atrtc0: <AT realtime clock> port 0x70-0x73 irq 8 on acpi0
+Feb 25 06:31:37 freebsd122 kernel: atrtc0: registered as a time-of-day clock, resolution 1.000000s
+Feb 25 06:31:37 freebsd122 kernel: Event timer "RTC" frequency 32768 Hz quality 0
+Feb 25 06:31:37 freebsd122 kernel: Timecounter "ACPI-fast" frequency 3579545 Hz quality 900
+Feb 25 06:31:37 freebsd122 kernel: acpi_timer0: <24-bit timer at 3.579545MHz> port 0x448-0x44b on acpi0
+Feb 25 06:31:37 freebsd122 kernel: pcib0: <ACPI Host-PCI bridge> port 0xcf8-0xcff on acpi0
+Feb 25 06:31:37 freebsd122 kernel: pci0: <ACPI PCI bus> on pcib0
+Feb 25 06:31:37 freebsd122 kernel: pcib1: <ACPI PCI-PCI bridge> at device 1.0 on pci0
+Feb 25 06:31:37 freebsd122 kernel: pci1: <ACPI PCI bus> on pcib1
+Feb 25 06:31:37 freebsd122 kernel: isab0: <PCI-ISA bridge> at device 7.0 on pci0
+Feb 25 06:31:37 freebsd122 kernel: isa0: <ISA bus> on isab0
+Feb 25 06:31:37 freebsd122 kernel: atapci0: <Intel PIIX4 UDMA33 controller> port 0x1f0-0x1f7,0x3f6,0x170-0x177,0x376,0x2150-0x215f at device 7.1 on pci0
+Feb 25 06:31:37 freebsd122 kernel: ata0: <ATA channel> at channel 0 on atapci0
+Feb 25 06:31:37 freebsd122 kernel: ata1: <ATA channel> at channel 1 on atapci0
+Feb 25 06:31:37 freebsd122 kernel: pci0: <bridge> at device 7.3 (no driver attached)
+Feb 25 06:31:37 freebsd122 kernel: vgapci0: <VGA-compatible display> port 0x2140-0x214f mem 0xf0000000-0xf7ffffff,0xfb800000-0xfbffffff at device 15.0 on pci0
+Feb 25 06:31:37 freebsd122 kernel: vgapci0: Boot video device
+Feb 25 06:31:37 freebsd122 kernel: mpt0: <LSILogic 1030 Ultra4 Adapter> port 0x2000-0x20ff mem 0xffbc0000-0xffbdffff,0xffba0000-0xffbbffff at device 16.0 on pci0
+Feb 25 06:31:37 freebsd122 kernel: mpt0: MPI Version=1.2.0.0
+Feb 25 06:31:37 freebsd122 kernel: pcib2: <ACPI PCI-PCI bridge> at device 17.0 on pci0
+Feb 25 06:31:37 freebsd122 kernel: pci2: <ACPI PCI bus> on pcib2
+Feb 25 06:31:37 freebsd122 kernel: uhci0: <UHCI (generic) USB controller> port 0x1040-0x105f at device 0.0 on pci2
+Feb 25 06:31:37 freebsd122 kernel: usbus0 on uhci0
+Feb 25 06:31:37 freebsd122 kernel: usbus0: 12Mbps Full Speed USB v1.0
+Feb 25 06:31:37 freebsd122 kernel: em0: <Intel(R) PRO/1000 Network Connection> port 0x1000-0x103f mem 0xfc000000-0xfc01ffff,0xfc020000-0xfc02ffff at device 1.0 on pci2
+Feb 25 06:31:37 freebsd122 kernel: em0: Using 1024 TX descriptors and 1024 RX descriptors
+Feb 25 06:31:37 freebsd122 kernel: em0: Ethernet address: 00:0c:29:70:b8:39
+Feb 25 06:31:37 freebsd122 kernel: em0: link state changed to UP
+Feb 25 06:31:37 freebsd122 kernel: em0: netmap queues/slots: TX 1/1024, RX 1/1024
+Feb 25 06:31:37 freebsd122 kernel: ehci0: <EHCI (generic) USB 2.0 controller> mem 0xfc040000-0xfc040fff at device 2.0 on pci2
+Feb 25 06:31:37 freebsd122 kernel: usbus1: EHCI version 1.0
+Feb 25 06:31:37 freebsd122 kernel: usbus1 on ehci0
+Feb 25 06:31:37 freebsd122 kernel: usbus1: 480Mbps High Speed USB v2.0
+Feb 25 06:31:37 freebsd122 kernel: pcib3: <ACPI PCI-PCI bridge> at device 21.0 on pci0
+Feb 25 06:31:37 freebsd122 kernel: pcib3: [GIANT-LOCKED]
+Feb 25 06:31:37 freebsd122 kernel: pci3: <ACPI PCI bus> on pcib3
+Feb 25 06:31:37 freebsd122 kernel: xhci0: <XHCI (generic) USB 3.0 controller> mem 0xfea00000-0xfea1ffff at device 0.0 on pci3
+Feb 25 06:31:37 freebsd122 kernel: xhci0: 32 bytes context size, 64-bit DMA
+Feb 25 06:31:37 freebsd122 kernel: xhci0: Unable to map MSI-X table 
+Feb 25 06:31:37 freebsd122 kernel: usbus2 on xhci0
+Feb 25 06:31:37 freebsd122 kernel: usbus2: 5.0Gbps Super Speed USB v3.0
+Feb 25 06:31:37 freebsd122 kernel: pcib4: <ACPI PCI-PCI bridge> at device 21.1 on pci0
+Feb 25 06:31:37 freebsd122 kernel: pcib4: [GIANT-LOCKED]
+Feb 25 06:31:37 freebsd122 kernel: pcib5: <ACPI PCI-PCI bridge> at device 21.2 on pci0
+Feb 25 06:31:37 freebsd122 kernel: pcib5: [GIANT-LOCKED]
+Feb 25 06:31:37 freebsd122 kernel: pcib6: <ACPI PCI-PCI bridge> at device 21.3 on pci0
+Feb 25 06:31:37 freebsd122 kernel: pcib6: [GIANT-LOCKED]
+Feb 25 06:31:37 freebsd122 kernel: pcib7: <ACPI PCI-PCI bridge> at device 21.4 on pci0
+Feb 25 06:31:37 freebsd122 kernel: pcib7: [GIANT-LOCKED]
+Feb 25 06:31:37 freebsd122 kernel: pcib8: <ACPI PCI-PCI bridge> at device 21.5 on pci0
+Feb 25 06:31:37 freebsd122 kernel: pcib8: [GIANT-LOCKED]
+Feb 25 06:31:37 freebsd122 kernel: pcib9: <ACPI PCI-PCI bridge> at device 21.6 on pci0
+Feb 25 06:31:37 freebsd122 kernel: pcib9: [GIANT-LOCKED]
+Feb 25 06:31:37 freebsd122 kernel: pcib10: <ACPI PCI-PCI bridge> at device 21.7 on pci0
+Feb 25 06:31:37 freebsd122 kernel: pcib10: [GIANT-LOCKED]
+Feb 25 06:31:37 freebsd122 kernel: pcib11: <ACPI PCI-PCI bridge> at device 22.0 on pci0
+Feb 25 06:31:37 freebsd122 kernel: pcib11: [GIANT-LOCKED]
+Feb 25 06:31:37 freebsd122 kernel: pcib12: <ACPI PCI-PCI bridge> at device 22.1 on pci0
+Feb 25 06:31:37 freebsd122 kernel: pcib12: [GIANT-LOCKED]
+Feb 25 06:31:37 freebsd122 kernel: pcib13: <ACPI PCI-PCI bridge> at device 22.2 on pci0
+Feb 25 06:31:37 freebsd122 kernel: pcib13: [GIANT-LOCKED]
+Feb 25 06:31:37 freebsd122 kernel: pcib14: <ACPI PCI-PCI bridge> at device 22.3 on pci0
+Feb 25 06:31:37 freebsd122 kernel: pcib14: [GIANT-LOCKED]
+Feb 25 06:31:37 freebsd122 kernel: pcib15: <ACPI PCI-PCI bridge> at device 22.4 on pci0
+Feb 25 06:31:37 freebsd122 kernel: pcib15: [GIANT-LOCKED]
+Feb 25 06:31:37 freebsd122 kernel: pcib16: <ACPI PCI-PCI bridge> at device 22.5 on pci0
+Feb 25 06:31:37 freebsd122 kernel: pcib16: [GIANT-LOCKED]
+Feb 25 06:31:37 freebsd122 kernel: pcib17: <ACPI PCI-PCI bridge> at device 22.6 on pci0
+Feb 25 06:31:37 freebsd122 kernel: pcib17: [GIANT-LOCKED]
+Feb 25 06:31:37 freebsd122 kernel: pcib18: <ACPI PCI-PCI bridge> at device 22.7 on pci0
+Feb 25 06:31:37 freebsd122 kernel: pcib18: [GIANT-LOCKED]
+Feb 25 06:31:37 freebsd122 kernel: pcib19: <ACPI PCI-PCI bridge> at device 23.0 on pci0
+Feb 25 06:31:37 freebsd122 kernel: pcib19: [GIANT-LOCKED]
+Feb 25 06:31:37 freebsd122 kernel: pcib20: <ACPI PCI-PCI bridge> at device 23.1 on pci0
+Feb 25 06:31:37 freebsd122 kernel: pcib20: [GIANT-LOCKED]
+Feb 25 06:31:37 freebsd122 kernel: pcib21: <ACPI PCI-PCI bridge> at device 23.2 on pci0
+Feb 25 06:31:37 freebsd122 kernel: pcib21: [GIANT-LOCKED]
+Feb 25 06:31:37 freebsd122 kernel: pcib22: <ACPI PCI-PCI bridge> at device 23.3 on pci0
+Feb 25 06:31:37 freebsd122 kernel: pcib22: [GIANT-LOCKED]
+Feb 25 06:31:37 freebsd122 kernel: pcib23: <ACPI PCI-PCI bridge> at device 23.4 on pci0
+Feb 25 06:31:37 freebsd122 kernel: pcib23: [GIANT-LOCKED]
+Feb 25 06:31:37 freebsd122 kernel: pcib24: <ACPI PCI-PCI bridge> at device 23.5 on pci0
+Feb 25 06:31:37 freebsd122 kernel: pcib24: [GIANT-LOCKED]
+Feb 25 06:31:37 freebsd122 kernel: pcib25: <ACPI PCI-PCI bridge> at device 23.6 on pci0
+Feb 25 06:31:37 freebsd122 kernel: pcib25: [GIANT-LOCKED]
+Feb 25 06:31:37 freebsd122 kernel: pcib26: <ACPI PCI-PCI bridge> at device 23.7 on pci0
+Feb 25 06:31:37 freebsd122 kernel: pcib26: [GIANT-LOCKED]
+Feb 25 06:31:37 freebsd122 kernel: pcib27: <ACPI PCI-PCI bridge> at device 24.0 on pci0
+Feb 25 06:31:37 freebsd122 kernel: pcib27: [GIANT-LOCKED]
+Feb 25 06:31:37 freebsd122 kernel: pcib28: <ACPI PCI-PCI bridge> at device 24.1 on pci0
+Feb 25 06:31:37 freebsd122 kernel: pcib28: [GIANT-LOCKED]
+Feb 25 06:31:37 freebsd122 kernel: pcib29: <ACPI PCI-PCI bridge> at device 24.2 on pci0
+Feb 25 06:31:37 freebsd122 kernel: pcib29: [GIANT-LOCKED]
+Feb 25 06:31:37 freebsd122 kernel: pcib30: <ACPI PCI-PCI bridge> at device 24.3 on pci0
+Feb 25 06:31:37 freebsd122 kernel: pcib30: [GIANT-LOCKED]
+Feb 25 06:31:37 freebsd122 kernel: pcib31: <ACPI PCI-PCI bridge> at device 24.4 on pci0
+Feb 25 06:31:37 freebsd122 kernel: pcib31: [GIANT-LOCKED]
+Feb 25 06:31:37 freebsd122 kernel: pcib32: <ACPI PCI-PCI bridge> at device 24.5 on pci0
+Feb 25 06:31:37 freebsd122 kernel: pcib32: [GIANT-LOCKED]
+Feb 25 06:31:37 freebsd122 kernel: pcib33: <ACPI PCI-PCI bridge> at device 24.6 on pci0
+Feb 25 06:31:37 freebsd122 kernel: pcib33: [GIANT-LOCKED]
+Feb 25 06:31:37 freebsd122 kernel: pcib34: <ACPI PCI-PCI bridge> at device 24.7 on pci0
+Feb 25 06:31:37 freebsd122 kernel: pcib34: [GIANT-LOCKED]
+Feb 25 06:31:37 freebsd122 kernel: acpi_acad0: <AC Adapter> on acpi0
+Feb 25 06:31:37 freebsd122 kernel: atkbdc0: <Keyboard controller (i8042)> port 0x60,0x64 irq 1 on acpi0
+Feb 25 06:31:37 freebsd122 kernel: atkbd0: <AT Keyboard> irq 1 on atkbdc0
+Feb 25 06:31:37 freebsd122 kernel: kbd0 at atkbd0
+Feb 25 06:31:37 freebsd122 kernel: atkbd0: [GIANT-LOCKED]
+Feb 25 06:31:37 freebsd122 kernel: psm0: <PS/2 Mouse> irq 12 on atkbdc0
+Feb 25 06:31:37 freebsd122 kernel: psm0: [GIANT-LOCKED]
+Feb 25 06:31:37 freebsd122 kernel: psm0: model IntelliMouse, device ID 3
+Feb 25 06:31:37 freebsd122 kernel: acpi_syscontainer0: <System Container> on acpi0
+Feb 25 06:31:37 freebsd122 kernel: orm0: <ISA Option ROMs> at iomem 0xc0000-0xcffff,0xd0000-0xdffff,0xe0000-0xeffff pnpid ORM0000 on isa0
+Feb 25 06:31:37 freebsd122 kernel: ZFS NOTICE: Prefetch is disabled by default if less than 4GB of RAM is present;
+Feb 25 06:31:37 freebsd122 kernel:             to enable, add "vfs.zfs.prefetch_disable=0" to /boot/loader.conf.
+Feb 25 06:31:37 freebsd122 kernel: ZFS filesystem version: 5
+Feb 25 06:31:37 freebsd122 kernel: ZFS storage pool version: features support (5000)
+Feb 25 06:31:37 freebsd122 kernel: Timecounters tick every 10.000 msec
+Feb 25 06:31:37 freebsd122 kernel: Trying to mount root from zfs:system/ROOT/default []...
+Feb 25 06:31:37 freebsd122 kernel: Root mount waiting for: CAM usbus0 usbus1 usbus2
+Feb 25 06:31:37 freebsd122 kernel: ugen0.1: <(0x15ad) UHCI root HUB> at usbus0
+Feb 25 06:31:37 freebsd122 kernel: ugen2.1: <0x15ad XHCI root HUB> at usbus2
+Feb 25 06:31:37 freebsd122 kernel: uhub0: <(0x15ad) UHCI root HUB, class 9/0, rev 1.00/1.00, addr 1> on usbus0
+Feb 25 06:31:37 freebsd122 kernel: uhub1: <0x15ad XHCI root HUB, class 9/0, rev 3.00/1.00, addr 1> on usbus2
+Feb 25 06:31:37 freebsd122 kernel: ugen1.1: <(0x15ad) EHCI root HUB> at usbus1
+Feb 25 06:31:37 freebsd122 kernel: uhub2: <(0x15ad) EHCI root HUB, class 9/0, rev 2.00/1.00, addr 1> on usbus1
+Feb 25 06:31:37 freebsd122 kernel: uhub0: 2 ports with 2 removable, self powered
+Feb 25 06:31:37 freebsd122 kernel: uhub1: 8 ports with 8 removable, self powered
+Feb 25 06:31:37 freebsd122 kernel: ugen2.2: <VMware VMware Virtual USB Mouse> at usbus2
+Feb 25 06:31:37 freebsd122 kernel: Root mount waiting for: CAM usbus1
+Feb 25 06:31:37 freebsd122 kernel: da0 at mpt0 bus 0 scbus2 target 0 lun 0
+Feb 25 06:31:37 freebsd122 kernel: da0: <VMware, VMware Virtual S 1.0> Fixed Direct Access SCSI-2 device
+Feb 25 06:31:37 freebsd122 kernel: da0: 320.000MB/s transfers (160.000MHz, offset 127, 16bit)
+Feb 25 06:31:37 freebsd122 kernel: da0: Command Queueing enabled
+Feb 25 06:31:37 freebsd122 kernel: da0: 71680MB (146800640 512 byte sectors)
+Feb 25 06:31:37 freebsd122 kernel: da0: quirks=0x140<RETRY_BUSY,STRICT_UNMAP>
+Feb 25 06:31:37 freebsd122 kernel: cd0 at ata1 bus 0 scbus1 target 0 lun 0
+Feb 25 06:31:37 freebsd122 kernel: cd0: <NECVMWar VMware IDE CDR10 1.00> Removable CD-ROM SCSI device
+Feb 25 06:31:37 freebsd122 kernel: cd0: Serial Number 10000000000000000001
+Feb 25 06:31:37 freebsd122 kernel: cd0: 33.300MB/s transfers (UDMA2, ATAPI 12bytes, PIO 65534bytes)
+Feb 25 06:31:37 freebsd122 kernel: cd0: 920MB (471240 2048 byte sectors)
+Feb 25 06:31:37 freebsd122 kernel: cd0: quirks=0x40<RETRY_BUSY>
+Feb 25 06:31:37 freebsd122 kernel: Root mount waiting for: usbus1
+Feb 25 06:31:37 freebsd122 kernel: uhub2: 6 ports with 6 removable, self powered
+Feb 25 06:31:37 freebsd122 kernel: intsmb0: <Intel PIIX4 SMBUS Interface> port 0x2160-0x216f at device 7.3 on pci0
+Feb 25 06:31:37 freebsd122 kernel: intsmb0: intr SMI disabled revision 0
+Feb 25 06:31:37 freebsd122 kernel: smbus0: <System Management Bus> on intsmb0
+Feb 25 06:31:37 freebsd122 kernel: lo0: link state changed to UP
+Feb 25 06:31:37 freebsd122 kernel: uhid0 on uhub1
+Feb 25 06:31:37 freebsd122 kernel: uhid0: <VMware> on usbus2
+Feb 25 06:31:37 freebsd122 kernel: uhid1 on uhub1
+Feb 25 06:31:37 freebsd122 kernel: uhid1: <VMware> on usbus2
+Feb 25 06:31:37 freebsd122 kernel: done.
+Feb 25 06:45:29 freebsd122 login[896]: ROOT LOGIN (root) ON ttyv0
+Feb 25 07:12:34 freebsd122 login[931]: ROOT LOGIN (root) ON ttyv0
+Feb 25 07:12:39 freebsd122 shutdown[971]: power-down by root: 
+Feb 25 07:12:40 freebsd122 syslogd: exiting on signal 15
+Aug 17 15:36:44 freebsd122 syslogd: kernel boot file is /boot/kernel/kernel
+Aug 17 15:36:44 freebsd122 kernel: ---<<BOOT>>---
+Aug 17 15:36:44 freebsd122 kernel: Copyright (c) 1992-2020 The FreeBSD Project.
+Aug 17 15:36:44 freebsd122 kernel: Copyright (c) 1979, 1980, 1983, 1986, 1988, 1989, 1991, 1992, 1993, 1994
+Aug 17 15:36:44 freebsd122 kernel: 	The Regents of the University of California. All rights reserved.
+Aug 17 15:36:44 freebsd122 kernel: FreeBSD is a registered trademark of The FreeBSD Foundation.
+Aug 17 15:36:44 freebsd122 kernel: FreeBSD 12.2-RELEASE r366954 GENERIC amd64
+Aug 17 15:36:44 freebsd122 kernel: FreeBSD clang version 10.0.1 (git@github.com:llvm/llvm-project.git llvmorg-10.0.1-0-gef32c611aa2)
+Aug 17 15:36:44 freebsd122 kernel: VT(efifb): resolution 1024x768
+Aug 17 15:36:44 freebsd122 kernel: CPU: Intel(R) Core(TM) i7-4850HQ CPU @ 2.30GHz (2294.69-MHz K8-class CPU)
+Aug 17 15:36:44 freebsd122 kernel:   Origin="GenuineIntel"  Id=0x40661  Family=0x6  Model=0x46  Stepping=1
+Aug 17 15:36:44 freebsd122 kernel:   Features=0xf83fbff<FPU,VME,DE,PSE,TSC,MSR,PAE,MCE,CX8,APIC,SEP,MTRR,PGE,MCA,CMOV,PAT,PSE36,MMX,FXSR,SSE,SSE2,SS>
+Aug 17 15:36:44 freebsd122 kernel:   Features2=0xfffa3223<SSE3,PCLMULQDQ,VMX,SSSE3,FMA,CX16,PCID,SSE4.1,SSE4.2,x2APIC,MOVBE,POPCNT,TSCDLT,AESNI,XSAVE,OSXSAVE,AVX,F16C,RDRAND,HV>
+Aug 17 15:36:44 freebsd122 kernel:   AMD Features=0x2c100800<SYSCALL,NX,Page1GB,RDTSCP,LM>
+Aug 17 15:36:44 freebsd122 kernel:   AMD Features2=0x21<LAHF,ABM>
+Aug 17 15:36:44 freebsd122 kernel:   Structured Extended Features=0x27ab<FSGSBASE,TSCADJ,BMI1,AVX2,SMEP,BMI2,ERMS,INVPCID,NFPUSG>
+Aug 17 15:36:44 freebsd122 kernel:   Structured Extended Features3=0xbc000400<MD_CLEAR,IBPB,STIBP,L1DFL,ARCH_CAP,SSBD>
+Aug 17 15:36:44 freebsd122 kernel:   XSAVE Features=0x1<XSAVEOPT>
+Aug 17 15:36:44 freebsd122 kernel:   IA32_ARCH_CAPS=0xc<RSBA,SKIP_L1DFL_VME>
+Aug 17 15:36:44 freebsd122 kernel:   VT-x: PAT,HLT,MTF,PAUSE,EPT,UG,VPID
+Aug 17 15:36:44 freebsd122 kernel:   TSC: P-state invariant
+Aug 17 15:36:44 freebsd122 kernel: Hypervisor: Origin = "VMwareVMware"
+Aug 17 15:36:44 freebsd122 kernel: real memory  = 4294967296 (4096 MB)
+Aug 17 15:36:44 freebsd122 kernel: avail memory = 4095422464 (3905 MB)
+Aug 17 15:36:44 freebsd122 kernel: Event timer "LAPIC" quality 600
+Aug 17 15:36:44 freebsd122 kernel: ACPI APIC Table: <VMWARE EFIAPIC >
+Aug 17 15:36:44 freebsd122 kernel: unexpected cache level 3
+Aug 17 15:36:44 freebsd122 kernel: FreeBSD/SMP: Multiprocessor System Detected: 2 CPUs
+Aug 17 15:36:44 freebsd122 kernel: FreeBSD/SMP: 2 package(s) x 1 core(s)
+Aug 17 15:36:44 freebsd122 kernel: random: unblocking device.
+Aug 17 15:36:44 freebsd122 kernel: ioapic0: MADT APIC ID 2 != hw id 0
+Aug 17 15:36:44 freebsd122 kernel: MADT: Forcing active-low polarity and level trigger for SCI
+Aug 17 15:36:44 freebsd122 kernel: ioapic0 <Version 2.0> irqs 0-23 on motherboard
+Aug 17 15:36:44 freebsd122 kernel: Launching APs: 1
+Aug 17 15:36:44 freebsd122 kernel: random: entropy device external interface
+Aug 17 15:36:44 freebsd122 kernel: kbd1 at kbdmux0
+Aug 17 15:36:44 freebsd122 kernel: 000.000023 [4336] netmap_init               netmap: loaded module
+Aug 17 15:36:44 freebsd122 kernel: [ath_hal] loaded
+Aug 17 15:36:44 freebsd122 kernel: module_register_init: MOD_LOAD (vesa, 0xffffffff81115e40, 0) error 19
+Aug 17 15:36:44 freebsd122 kernel: random: registering fast source Intel Secure Key RNG
+Aug 17 15:36:44 freebsd122 kernel: random: fast provider: "Intel Secure Key RNG"
+Aug 17 15:36:44 freebsd122 kernel: nexus0
+Aug 17 15:36:44 freebsd122 kernel: efirtc0: <EFI Realtime Clock> on motherboard
+Aug 17 15:36:44 freebsd122 kernel: efirtc0: registered as a time-of-day clock, resolution 1.000000s
+Aug 17 15:36:44 freebsd122 kernel: cryptosoft0: <software crypto> on motherboard
+Aug 17 15:36:44 freebsd122 kernel: acpi0: <INTEL 440BX> on motherboard
+Aug 17 15:36:44 freebsd122 kernel: acpi0: Power Button (fixed)
+Aug 17 15:36:44 freebsd122 kernel: hpet0: <High Precision Event Timer> iomem 0xfed00000-0xfed003ff on acpi0
+Aug 17 15:36:44 freebsd122 kernel: Timecounter "HPET" frequency 14318180 Hz quality 950
+Aug 17 15:36:44 freebsd122 kernel: cpu0: <ACPI CPU> numa-domain 0 on acpi0
+Aug 17 15:36:44 freebsd122 kernel: attimer0: <AT timer> port 0x40-0x43 irq 0 on acpi0
+Aug 17 15:36:44 freebsd122 kernel: Timecounter "i8254" frequency 1193182 Hz quality 0
+Aug 17 15:36:44 freebsd122 kernel: Event timer "i8254" frequency 1193182 Hz quality 100
+Aug 17 15:36:44 freebsd122 kernel: atrtc0: <AT realtime clock> port 0x70-0x73 irq 8 on acpi0
+Aug 17 15:36:44 freebsd122 kernel: atrtc0: registered as a time-of-day clock, resolution 1.000000s
+Aug 17 15:36:44 freebsd122 kernel: Event timer "RTC" frequency 32768 Hz quality 0
+Aug 17 15:36:44 freebsd122 kernel: Timecounter "ACPI-fast" frequency 3579545 Hz quality 900
+Aug 17 15:36:44 freebsd122 kernel: acpi_timer0: <24-bit timer at 3.579545MHz> port 0x448-0x44b on acpi0
+Aug 17 15:36:44 freebsd122 kernel: pcib0: <ACPI Host-PCI bridge> port 0xcf8-0xcff on acpi0
+Aug 17 15:36:44 freebsd122 kernel: pci0: <ACPI PCI bus> on pcib0
+Aug 17 15:36:44 freebsd122 kernel: pcib1: <ACPI PCI-PCI bridge> at device 1.0 on pci0
+Aug 17 15:36:44 freebsd122 kernel: pci1: <ACPI PCI bus> on pcib1
+Aug 17 15:36:44 freebsd122 kernel: isab0: <PCI-ISA bridge> at device 7.0 on pci0
+Aug 17 15:36:44 freebsd122 kernel: isa0: <ISA bus> on isab0
+Aug 17 15:36:44 freebsd122 kernel: atapci0: <Intel PIIX4 UDMA33 controller> port 0x1f0-0x1f7,0x3f6,0x170-0x177,0x376,0x2150-0x215f at device 7.1 on pci0
+Aug 17 15:36:44 freebsd122 kernel: ata0: <ATA channel> at channel 0 on atapci0
+Aug 17 15:36:44 freebsd122 kernel: ata1: <ATA channel> at channel 1 on atapci0
+Aug 17 15:36:44 freebsd122 kernel: pci0: <bridge> at device 7.3 (no driver attached)
+Aug 17 15:36:44 freebsd122 kernel: vgapci0: <VGA-compatible display> port 0x2140-0x214f mem 0xf0000000-0xf7ffffff,0xfb800000-0xfbffffff at device 15.0 on pci0
+Aug 17 15:36:44 freebsd122 kernel: vgapci0: Boot video device
+Aug 17 15:36:44 freebsd122 kernel: mpt0: <LSILogic 1030 Ultra4 Adapter> port 0x2000-0x20ff mem 0xffbc0000-0xffbdffff,0xffba0000-0xffbbffff at device 16.0 on pci0
+Aug 17 15:36:44 freebsd122 kernel: mpt0: MPI Version=1.2.0.0
+Aug 17 15:36:44 freebsd122 kernel: pcib2: <ACPI PCI-PCI bridge> at device 17.0 on pci0
+Aug 17 15:36:44 freebsd122 kernel: pci2: <ACPI PCI bus> on pcib2
+Aug 17 15:36:44 freebsd122 kernel: uhci0: <UHCI (generic) USB controller> port 0x1040-0x105f at device 0.0 on pci2
+Aug 17 15:36:44 freebsd122 kernel: usbus0 on uhci0
+Aug 17 15:36:44 freebsd122 kernel: usbus0: 12Mbps Full Speed USB v1.0
+Aug 17 15:36:44 freebsd122 kernel: em0: <Intel(R) PRO/1000 Network Connection> port 0x1000-0x103f mem 0xfc000000-0xfc01ffff,0xfc020000-0xfc02ffff at device 1.0 on pci2
+Aug 17 15:36:44 freebsd122 kernel: em0: Using 1024 TX descriptors and 1024 RX descriptors
+Aug 17 15:36:44 freebsd122 kernel: em0: Ethernet address: 00:0c:29:70:b8:39
+Aug 17 15:36:44 freebsd122 kernel: em0: link state changed to UP
+Aug 17 15:36:44 freebsd122 kernel: em0: netmap queues/slots: TX 1/1024, RX 1/1024
+Aug 17 15:36:44 freebsd122 kernel: ehci0: <EHCI (generic) USB 2.0 controller> mem 0xfc040000-0xfc040fff at device 2.0 on pci2
+Aug 17 15:36:44 freebsd122 kernel: usbus1: EHCI version 1.0
+Aug 17 15:36:44 freebsd122 kernel: usbus1 on ehci0
+Aug 17 15:36:44 freebsd122 kernel: usbus1: 480Mbps High Speed USB v2.0
+Aug 17 15:36:44 freebsd122 kernel: pcib3: <ACPI PCI-PCI bridge> at device 21.0 on pci0
+Aug 17 15:36:44 freebsd122 kernel: pcib3: [GIANT-LOCKED]
+Aug 17 15:36:44 freebsd122 kernel: pci3: <ACPI PCI bus> on pcib3
+Aug 17 15:36:44 freebsd122 kernel: xhci0: <XHCI (generic) USB 3.0 controller> mem 0xfea00000-0xfea1ffff at device 0.0 on pci3
+Aug 17 15:36:44 freebsd122 kernel: xhci0: 32 bytes context size, 64-bit DMA
+Aug 17 15:36:44 freebsd122 kernel: xhci0: Unable to map MSI-X table 
+Aug 17 15:36:44 freebsd122 kernel: usbus2 on xhci0
+Aug 17 15:36:44 freebsd122 kernel: usbus2: 5.0Gbps Super Speed USB v3.0
+Aug 17 15:36:44 freebsd122 kernel: pcib4: <ACPI PCI-PCI bridge> at device 21.1 on pci0
+Aug 17 15:36:44 freebsd122 kernel: pcib4: [GIANT-LOCKED]
+Aug 17 15:36:44 freebsd122 kernel: pcib5: <ACPI PCI-PCI bridge> at device 21.2 on pci0
+Aug 17 15:36:44 freebsd122 kernel: pcib5: [GIANT-LOCKED]
+Aug 17 15:36:44 freebsd122 kernel: pcib6: <ACPI PCI-PCI bridge> at device 21.3 on pci0
+Aug 17 15:36:44 freebsd122 kernel: pcib6: [GIANT-LOCKED]
+Aug 17 15:36:44 freebsd122 kernel: pcib7: <ACPI PCI-PCI bridge> at device 21.4 on pci0
+Aug 17 15:36:44 freebsd122 kernel: pcib7: [GIANT-LOCKED]
+Aug 17 15:36:44 freebsd122 kernel: pcib8: <ACPI PCI-PCI bridge> at device 21.5 on pci0
+Aug 17 15:36:44 freebsd122 kernel: pcib8: [GIANT-LOCKED]
+Aug 17 15:36:44 freebsd122 kernel: pcib9: <ACPI PCI-PCI bridge> at device 21.6 on pci0
+Aug 17 15:36:44 freebsd122 kernel: pcib9: [GIANT-LOCKED]
+Aug 17 15:36:44 freebsd122 kernel: pcib10: <ACPI PCI-PCI bridge> at device 21.7 on pci0
+Aug 17 15:36:44 freebsd122 kernel: pcib10: [GIANT-LOCKED]
+Aug 17 15:36:44 freebsd122 kernel: pcib11: <ACPI PCI-PCI bridge> at device 22.0 on pci0
+Aug 17 15:36:44 freebsd122 kernel: pcib11: [GIANT-LOCKED]
+Aug 17 15:36:44 freebsd122 kernel: pcib12: <ACPI PCI-PCI bridge> at device 22.1 on pci0
+Aug 17 15:36:44 freebsd122 kernel: pcib12: [GIANT-LOCKED]
+Aug 17 15:36:44 freebsd122 kernel: pcib13: <ACPI PCI-PCI bridge> at device 22.2 on pci0
+Aug 17 15:36:44 freebsd122 kernel: pcib13: [GIANT-LOCKED]
+Aug 17 15:36:44 freebsd122 kernel: pcib14: <ACPI PCI-PCI bridge> at device 22.3 on pci0
+Aug 17 15:36:44 freebsd122 kernel: pcib14: [GIANT-LOCKED]
+Aug 17 15:36:44 freebsd122 kernel: pcib15: <ACPI PCI-PCI bridge> at device 22.4 on pci0
+Aug 17 15:36:44 freebsd122 kernel: pcib15: [GIANT-LOCKED]
+Aug 17 15:36:44 freebsd122 kernel: pcib16: <ACPI PCI-PCI bridge> at device 22.5 on pci0
+Aug 17 15:36:44 freebsd122 kernel: pcib16: [GIANT-LOCKED]
+Aug 17 15:36:44 freebsd122 kernel: pcib17: <ACPI PCI-PCI bridge> at device 22.6 on pci0
+Aug 17 15:36:44 freebsd122 kernel: pcib17: [GIANT-LOCKED]
+Aug 17 15:36:44 freebsd122 kernel: pcib18: <ACPI PCI-PCI bridge> at device 22.7 on pci0
+Aug 17 15:36:44 freebsd122 kernel: pcib18: [GIANT-LOCKED]
+Aug 17 15:36:44 freebsd122 kernel: pcib19: <ACPI PCI-PCI bridge> at device 23.0 on pci0
+Aug 17 15:36:44 freebsd122 kernel: pcib19: [GIANT-LOCKED]
+Aug 17 15:36:44 freebsd122 kernel: pcib20: <ACPI PCI-PCI bridge> at device 23.1 on pci0
+Aug 17 15:36:44 freebsd122 kernel: pcib20: [GIANT-LOCKED]
+Aug 17 15:36:44 freebsd122 kernel: pcib21: <ACPI PCI-PCI bridge> at device 23.2 on pci0
+Aug 17 15:36:44 freebsd122 kernel: pcib21: [GIANT-LOCKED]
+Aug 17 15:36:44 freebsd122 kernel: pcib22: <ACPI PCI-PCI bridge> at device 23.3 on pci0
+Aug 17 15:36:44 freebsd122 kernel: pcib22: [GIANT-LOCKED]
+Aug 17 15:36:44 freebsd122 kernel: pcib23: <ACPI PCI-PCI bridge> at device 23.4 on pci0
+Aug 17 15:36:44 freebsd122 kernel: pcib23: [GIANT-LOCKED]
+Aug 17 15:36:44 freebsd122 kernel: pcib24: <ACPI PCI-PCI bridge> at device 23.5 on pci0
+Aug 17 15:36:44 freebsd122 kernel: pcib24: [GIANT-LOCKED]
+Aug 17 15:36:44 freebsd122 kernel: pcib25: <ACPI PCI-PCI bridge> at device 23.6 on pci0
+Aug 17 15:36:44 freebsd122 kernel: pcib25: [GIANT-LOCKED]
+Aug 17 15:36:44 freebsd122 kernel: pcib26: <ACPI PCI-PCI bridge> at device 23.7 on pci0
+Aug 17 15:36:44 freebsd122 kernel: pcib26: [GIANT-LOCKED]
+Aug 17 15:36:44 freebsd122 kernel: pcib27: <ACPI PCI-PCI bridge> at device 24.0 on pci0
+Aug 17 15:36:44 freebsd122 kernel: pcib27: [GIANT-LOCKED]
+Aug 17 15:36:44 freebsd122 kernel: pcib28: <ACPI PCI-PCI bridge> at device 24.1 on pci0
+Aug 17 15:36:44 freebsd122 kernel: pcib28: [GIANT-LOCKED]
+Aug 17 15:36:44 freebsd122 kernel: pcib29: <ACPI PCI-PCI bridge> at device 24.2 on pci0
+Aug 17 15:36:44 freebsd122 kernel: pcib29: [GIANT-LOCKED]
+Aug 17 15:36:44 freebsd122 kernel: pcib30: <ACPI PCI-PCI bridge> at device 24.3 on pci0
+Aug 17 15:36:44 freebsd122 kernel: pcib30: [GIANT-LOCKED]
+Aug 17 15:36:44 freebsd122 kernel: pcib31: <ACPI PCI-PCI bridge> at device 24.4 on pci0
+Aug 17 15:36:44 freebsd122 kernel: pcib31: [GIANT-LOCKED]
+Aug 17 15:36:44 freebsd122 kernel: pcib32: <ACPI PCI-PCI bridge> at device 24.5 on pci0
+Aug 17 15:36:44 freebsd122 kernel: pcib32: [GIANT-LOCKED]
+Aug 17 15:36:44 freebsd122 kernel: pcib33: <ACPI PCI-PCI bridge> at device 24.6 on pci0
+Aug 17 15:36:44 freebsd122 kernel: pcib33: [GIANT-LOCKED]
+Aug 17 15:36:44 freebsd122 kernel: acpi_acad0: <AC Adapter> on acpi0
+Aug 17 15:36:44 freebsd122 kernel: atkbdc0: <Keyboard controller (i8042)> port 0x60,0x64 irq 1 on acpi0
+Aug 17 15:36:44 freebsd122 kernel: atkbd0: <AT Keyboard> irq 1 on atkbdc0
+Aug 17 15:36:44 freebsd122 kernel: kbd0 at atkbd0
+Aug 17 15:36:44 freebsd122 kernel: atkbd0: [GIANT-LOCKED]
+Aug 17 15:36:44 freebsd122 kernel: psm0: <PS/2 Mouse> irq 12 on atkbdc0
+Aug 17 15:36:44 freebsd122 kernel: psm0: [GIANT-LOCKED]
+Aug 17 15:36:44 freebsd122 kernel: psm0: model IntelliMouse, device ID 3
+Aug 17 15:36:44 freebsd122 kernel: acpi_syscontainer0: <System Container> on acpi0
+Aug 17 15:36:44 freebsd122 kernel: orm0: <ISA Option ROMs> at iomem 0xc0000-0xcffff,0xd0000-0xdffff,0xe0000-0xeffff pnpid ORM0000 on isa0
+Aug 17 15:36:44 freebsd122 kernel: ZFS NOTICE: Prefetch is disabled by default if less than 4GB of RAM is present;
+Aug 17 15:36:44 freebsd122 kernel:             to enable, add "vfs.zfs.prefetch_disable=0" to /boot/loader.conf.
+Aug 17 15:36:44 freebsd122 kernel: ZFS filesystem version: 5
+Aug 17 15:36:44 freebsd122 kernel: ZFS storage pool version: features support (5000)
+Aug 17 15:36:44 freebsd122 kernel: Timecounters tick every 10.000 msec
+Aug 17 15:36:44 freebsd122 kernel: Trying to mount root from zfs:system/ROOT/default []...
+Aug 17 15:36:44 freebsd122 kernel: Root mount waiting for: CAM usbus0 usbus1 usbus2
+Aug 17 15:36:44 freebsd122 kernel: ugen0.1: <(0x15ad) UHCI root HUB> at usbus0
+Aug 17 15:36:44 freebsd122 kernel: ugen2.1: <0x15ad XHCI root HUB> at usbus2
+Aug 17 15:36:44 freebsd122 kernel: uhub0: <(0x15ad) UHCI root HUB, class 9/0, rev 1.00/1.00, addr 1> on usbus0
+Aug 17 15:36:44 freebsd122 kernel: uhub1: <0x15ad XHCI root HUB, class 9/0, rev 3.00/1.00, addr 1> on usbus2
+Aug 17 15:36:44 freebsd122 kernel: ugen1.1: <(0x15ad) EHCI root HUB> at usbus1
+Aug 17 15:36:44 freebsd122 kernel: uhub2: <(0x15ad) EHCI root HUB, class 9/0, rev 2.00/1.00, addr 1> on usbus1
+Aug 17 15:36:44 freebsd122 kernel: uhub0: 2 ports with 2 removable, self powered
+Aug 17 15:36:44 freebsd122 kernel: uhub1: 8 ports with 8 removable, self powered
+Aug 17 15:36:44 freebsd122 kernel: ugen2.2: <VMware VMware Virtual USB Mouse> at usbus2
+Aug 17 15:36:44 freebsd122 kernel: Root mount waiting for: CAM usbus1
+Aug 17 15:36:44 freebsd122 kernel: da0 at mpt0 bus 0 scbus2 target 0 lun 0
+Aug 17 15:36:44 freebsd122 kernel: da0: <VMware, VMware Virtual S 1.0> Fixed Direct Access SCSI-2 device
+Aug 17 15:36:44 freebsd122 kernel: da0: 320.000MB/s transfers (160.000MHz, offset 127, 16bit)
+Aug 17 15:36:44 freebsd122 kernel: da0: Command Queueing enabled
+Aug 17 15:36:44 freebsd122 kernel: da0: 71680MB (146800640 512 byte sectors)
+Aug 17 15:36:44 freebsd122 kernel: da0: quirks=0x140<RETRY_BUSY,STRICT_UNMAP>
+Aug 17 15:36:44 freebsd122 kernel: cd0 at ata1 bus 0 scbus1 target 0 lun 0
+Aug 17 15:36:44 freebsd122 kernel: cd0: <NECVMWar VMware IDE CDR10 1.00> Removable CD-ROM SCSI device
+Aug 17 15:36:44 freebsd122 kernel: cd0: Serial Number 10000000000000000001
+Aug 17 15:36:44 freebsd122 kernel: cd0: 33.300MB/s transfers (UDMA2, ATAPI 12bytes, PIO 65534bytes)
+Aug 17 15:36:44 freebsd122 kernel: cd0: Attempt to query device size failed: NOT READY, Medium not present
+Aug 17 15:36:44 freebsd122 kernel: cd0: quirks=0x40<RETRY_BUSY>
+Aug 17 15:36:44 freebsd122 kernel: Root mount waiting for: usbus1
+Aug 17 15:36:44 freebsd122 kernel: uhub2: 6 ports with 6 removable, self powered
+Aug 17 15:36:44 freebsd122 kernel: intsmb0: <Intel PIIX4 SMBUS Interface> at device 7.3 on pci0
+Aug 17 15:36:44 freebsd122 kernel: intsmb0: intr SMI disabled revision 0
+Aug 17 15:36:44 freebsd122 kernel: smbus0: <System Management Bus> on intsmb0
+Aug 17 15:36:44 freebsd122 kernel: lo0: link state changed to UP
+Aug 17 15:36:44 freebsd122 kernel: uhid0 on uhub1
+Aug 17 15:36:44 freebsd122 kernel: uhid0: <VMware> on usbus2
+Aug 17 15:36:44 freebsd122 kernel: uhid1 on uhub1
+Aug 17 15:36:44 freebsd122 kernel: uhid1: <VMware> on usbus2
+Aug 17 15:37:27 freebsd122 login[883]: ROOT LOGIN (root) ON ttyv0

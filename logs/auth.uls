@@ -1,0 +1,72 @@
+Aug 11 17:37:01 uls2204-release useradd[1031]: new group: name=ubuntu, GID=1000
+Aug 11 17:37:01 uls2204-release useradd[1031]: new user: name=ubuntu, UID=1000, GID=1000, home=/home/ubuntu, shell=/bin/bash, from=none
+Aug 11 17:37:01 uls2204-release useradd[1031]: add 'ubuntu' to group 'adm'
+Aug 11 17:37:01 uls2204-release useradd[1031]: add 'ubuntu' to group 'cdrom'
+Aug 11 17:37:01 uls2204-release useradd[1031]: add 'ubuntu' to group 'sudo'
+Aug 11 17:37:01 uls2204-release useradd[1031]: add 'ubuntu' to group 'dip'
+Aug 11 17:37:01 uls2204-release useradd[1031]: add 'ubuntu' to group 'plugdev'
+Aug 11 17:37:01 uls2204-release useradd[1031]: add 'ubuntu' to group 'lxd'
+Aug 11 17:37:01 uls2204-release useradd[1031]: add 'ubuntu' to shadow group 'adm'
+Aug 11 17:37:01 uls2204-release useradd[1031]: add 'ubuntu' to shadow group 'cdrom'
+Aug 11 17:37:01 uls2204-release useradd[1031]: add 'ubuntu' to shadow group 'sudo'
+Aug 11 17:37:01 uls2204-release useradd[1031]: add 'ubuntu' to shadow group 'dip'
+Aug 11 17:37:01 uls2204-release useradd[1031]: add 'ubuntu' to shadow group 'plugdev'
+Aug 11 17:37:01 uls2204-release useradd[1031]: add 'ubuntu' to shadow group 'lxd'
+Aug 11 17:37:01 uls2204-release systemd-logind[1065]: New seat seat0.
+Aug 11 17:37:01 uls2204-release systemd-logind[1065]: Watching system buttons on /dev/input/event0 (Power Button)
+Aug 11 17:37:01 uls2204-release systemd-logind[1065]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Aug 11 17:37:01 uls2204-release sshd[1196]: Server listening on 0.0.0.0 port 22.
+Aug 11 17:37:01 uls2204-release sshd[1196]: Server listening on :: port 22.
+Aug 11 17:37:03 uls2204-release useradd[1424]: new user: name=lxd, UID=999, GID=100, home=/var/snap/lxd/common/lxd, shell=/bin/false, from=none
+Aug 11 17:37:07 uls2204-release sshd[1196]: Received signal 15; terminating.
+Aug 11 17:37:07 uls2204-release sshd[1630]: Server listening on 0.0.0.0 port 22.
+Aug 11 17:37:07 uls2204-release sshd[1630]: Server listening on :: port 22.
+Aug 11 14:37:30 uls2204-release login[1174]: pam_unix(login:session): session opened for user ubuntu(uid=1000) by LOGIN(uid=0)
+Aug 11 14:37:30 uls2204-release systemd-logind[1065]: New session 1 of user ubuntu.
+Aug 11 14:37:30 uls2204-release systemd: pam_unix(systemd-user:session): session opened for user ubuntu(uid=1000) by (uid=0)
+Aug 11 14:39:12 uls2204-release sudo:   ubuntu : TTY=tty1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 11 14:39:12 uls2204-release sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+Aug 11 14:39:15 uls2204-release sudo: pam_unix(sudo:session): session closed for user root
+Aug 11 14:39:21 uls2204-release sudo:   ubuntu : TTY=tty1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt upgrade
+Aug 11 14:39:21 uls2204-release sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+Aug 11 14:40:28 uls2204-release systemd-logind[1065]: Watching system buttons on /dev/input/event0 (Power Button)
+Aug 11 14:40:28 uls2204-release systemd-logind[1065]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Aug 11 14:41:59 uls2204-release sshd[1630]: Received signal 15; terminating.
+Aug 11 14:42:00 uls2204-release sshd[25852]: Server listening on 0.0.0.0 port 22.
+Aug 11 14:42:00 uls2204-release sshd[25852]: Server listening on :: port 22.
+Aug 11 14:42:02 uls2204-release sudo: pam_unix(sudo:session): session closed for user root
+Aug 11 14:42:15 uls2204-release sudo:   ubuntu : TTY=tty1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt clean
+Aug 11 14:42:15 uls2204-release sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+Aug 11 14:42:15 uls2204-release sudo: pam_unix(sudo:session): session closed for user root
+Aug 11 14:42:27 uls2204-release sudo:   ubuntu : TTY=tty1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt autoremove
+Aug 11 14:42:27 uls2204-release sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+Aug 11 14:42:29 uls2204-release sudo: pam_unix(sudo:session): session closed for user root
+Aug 11 14:42:36 uls2204-release sudo:   ubuntu : TTY=tty1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/shutdown -r now
+Aug 11 14:42:36 uls2204-release sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+Aug 11 14:42:36 uls2204-release sudo: pam_unix(sudo:session): session closed for user root
+Aug 11 17:42:57 uls2204-release sshd[937]: Server listening on 0.0.0.0 port 22.
+Aug 11 17:42:57 uls2204-release sshd[937]: Server listening on :: port 22.
+Aug 11 17:42:57 uls2204-release systemd-logind[905]: New seat seat0.
+Aug 11 17:42:57 uls2204-release systemd-logind[905]: Watching system buttons on /dev/input/event0 (Power Button)
+Aug 11 17:42:57 uls2204-release systemd-logind[905]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Aug 11 17:43:06 uls2204-release login[938]: pam_unix(login:session): session opened for user ubuntu(uid=1000) by LOGIN(uid=0)
+Aug 11 17:43:06 uls2204-release systemd-logind[905]: New session 1 of user ubuntu.
+Aug 11 17:43:06 uls2204-release systemd: pam_unix(systemd-user:session): session opened for user ubuntu(uid=1000) by (uid=0)
+Aug 11 14:44:42 uls2204-release sudo:   ubuntu : TTY=tty1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/shutdown -h now
+Aug 11 14:44:42 uls2204-release sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+Aug 11 14:44:42 uls2204-release sudo: pam_unix(sudo:session): session closed for user root
+Aug 11 23:33:46 uls2204-release sshd[973]: Server listening on 0.0.0.0 port 22.
+Aug 11 23:33:46 uls2204-release sshd[973]: Server listening on :: port 22.
+Aug 11 23:33:46 uls2204-release systemd-logind[946]: New seat seat0.
+Aug 11 23:33:46 uls2204-release systemd-logind[946]: Watching system buttons on /dev/input/event0 (Power Button)
+Aug 11 23:33:46 uls2204-release systemd-logind[946]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Aug 11 20:37:53 uls2204-release sshd[1386]: Connection closed by 192.168.1.33 port 51004 [preauth]
+Aug 11 20:38:27 uls2204-release sshd[1388]: Accepted password for ubuntu from 192.168.1.33 port 51021 ssh2
+Aug 11 20:38:27 uls2204-release sshd[1388]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by (uid=0)
+Aug 11 20:38:27 uls2204-release systemd-logind[946]: New session 1 of user ubuntu.
+Aug 11 20:38:27 uls2204-release systemd: pam_unix(systemd-user:session): session opened for user ubuntu(uid=1000) by (uid=0)
+Aug 11 20:39:37 uls2204-release sshd[1490]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.33  user=ubuntu
+Aug 11 20:39:39 uls2204-release sshd[1490]: Failed password for ubuntu from 192.168.1.33 port 51028 ssh2
+Aug 11 20:39:44 uls2204-release sshd[1490]: Accepted password for ubuntu from 192.168.1.33 port 51028 ssh2
+Aug 11 20:39:44 uls2204-release sshd[1490]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by (uid=0)
+Aug 11 20:39:44 uls2204-release systemd-logind[946]: New session 3 of user ubuntu.
