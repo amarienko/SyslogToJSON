@@ -74,12 +74,12 @@ The script generates an output **JSON** file with the following structure:
     }
 ```
 
-JSON file format is described in the file `schema.json` which can be used to validate the outgoing file.
+JSON file format is described in the file `syslog2json-schema.json` which can be used to validate the outgoing file.
 
 ### Script usage
 
 ```
-./syslog-to-json-export [-i string] [-n] [-o string] [-j string] [-c] [-h] [-H] [-v]
+./syslog2json.sh [-i string] [-n] [-o string] [-j string] [-c] [-h] [-H] [-v]
 ```
 **Options**
 
@@ -114,7 +114,7 @@ During the processing of syslog file rows, the double quote `'"'` character in t
 
 ### Notes
 
-* The script uses the basic system utilities installed by default with the operating system `awk`, `sed` and `cut`
+* The script uses the basic system utilities installed by default with the operating system `awk`, `sed` and `cut`.
 
 * To check the output JSON file, the `jq` command is used (*must be installed in the system*). The default path `/usr/bin/jq` is used to run the `jq` command. If the executable file is not installed in the `/usr/bin` directory, then the path to the `jq` command must be specified in the `-j` option.
 
