@@ -56,4 +56,8 @@ Temporary Items
 # Exclude .NET assemblies from source
 *.dll
 
+# Example files
+logs/*.uls
+logs/*.bsd
+
 # End of https://www.toptal.com/developers/gitignore/api/linux,macos,powershell
