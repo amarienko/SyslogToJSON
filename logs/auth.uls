@@ -1,17 +1,17 @@
-Aug 11 17:37:01 uls2204-release useradd[1031]: new group: name=ubuntu, GID=1000
-Aug 11 17:37:01 uls2204-release useradd[1031]: new user: name=ubuntu, UID=1000, GID=1000, home=/home/ubuntu, shell=/bin/bash, from=none
-Aug 11 17:37:01 uls2204-release useradd[1031]: add 'ubuntu' to group 'adm'
-Aug 11 17:37:01 uls2204-release useradd[1031]: add 'ubuntu' to group 'cdrom'
-Aug 11 17:37:01 uls2204-release useradd[1031]: add 'ubuntu' to group 'sudo'
-Aug 11 17:37:01 uls2204-release useradd[1031]: add 'ubuntu' to group 'dip'
-Aug 11 17:37:01 uls2204-release useradd[1031]: add 'ubuntu' to group 'plugdev'
-Aug 11 17:37:01 uls2204-release useradd[1031]: add 'ubuntu' to group 'lxd'
-Aug 11 17:37:01 uls2204-release useradd[1031]: add 'ubuntu' to shadow group 'adm'
-Aug 11 17:37:01 uls2204-release useradd[1031]: add 'ubuntu' to shadow group 'cdrom'
-Aug 11 17:37:01 uls2204-release useradd[1031]: add 'ubuntu' to shadow group 'sudo'
-Aug 11 17:37:01 uls2204-release useradd[1031]: add 'ubuntu' to shadow group 'dip'
-Aug 11 17:37:01 uls2204-release useradd[1031]: add 'ubuntu' to shadow group 'plugdev'
-Aug 11 17:37:01 uls2204-release useradd[1031]: add 'ubuntu' to shadow group 'lxd'
+Aug  9 17:37:01 uls2204-release useradd[1031]: new group: name=ubuntu, GID=1000
+Aug  9 17:37:01 uls2204-release useradd[1031]: new user: name=ubuntu, UID=1000, GID=1000, home=/home/ubuntu, shell=/bin/bash, from=none
+Aug  9 17:37:01 uls2204-release useradd[1031]: add 'ubuntu' to group 'adm'
+Aug  9 17:37:01 uls2204-release useradd[1031]: add 'ubuntu' to group 'cdrom'
+Aug  9 17:37:01 uls2204-release useradd[1031]: add 'ubuntu' to group 'sudo'
+Aug  9 17:37:01 uls2204-release useradd[1031]: add 'ubuntu' to group 'dip'
+Aug  9 17:37:01 uls2204-release useradd[1031]: add 'ubuntu' to group 'plugdev'
+Aug  9 17:37:01 uls2204-release useradd[1031]: add 'ubuntu' to group 'lxd'
+Aug  9 17:37:01 uls2204-release useradd[1031]: add 'ubuntu' to shadow group 'adm'
+Aug  9 17:37:01 uls2204-release useradd[1031]: add 'ubuntu' to shadow group 'cdrom'
+Aug  9 17:37:01 uls2204-release useradd[1031]: add 'ubuntu' to shadow group 'sudo'
+Aug  9 17:37:01 uls2204-release useradd[1031]: add 'ubuntu' to shadow group 'dip'
+Aug  9 17:37:01 uls2204-release useradd[1031]: add 'ubuntu' to shadow group 'plugdev'
+Aug  9 17:37:01 uls2204-release useradd[1031]: add 'ubuntu' to shadow group 'lxd'
 Aug 11 17:37:01 uls2204-release systemd-logind[1065]: New seat seat0.
 Aug 11 17:37:01 uls2204-release systemd-logind[1065]: Watching system buttons on /dev/input/event0 (Power Button)
 Aug 11 17:37:01 uls2204-release systemd-logind[1065]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
