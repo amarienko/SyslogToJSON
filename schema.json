@@ -142,14 +142,12 @@
                                             "title": "PID",
                                             "oneOf": [
                                                 {
-                                                    "type": "string",
-                                                    "default": "",
-                                                    "minLength": 0,
-                                                    "pattern": "^[0-9]+$"
-                                                },
-                                                {
                                                     "type": "integer",
                                                     "default": 0
+                                                },
+                                                {
+                                                    "type": "null",
+                                                    "default": null
                                                 }
                                             ],
                                             "examples": [
