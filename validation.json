@@ -1,0 +1,172 @@
+{
+    "definitions": {},
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "", 
+    "title": "Syslog Record", 
+    "description": "JSON Syslog Record Schema",
+    "type": "object",
+    "required": [
+        "id",
+        "message",
+        "creationTimestamp",
+        "data"
+    ],
+    "properties": {
+        "id": {
+            "title": "Message Id",
+            "type": "integer",
+            "examples": [
+                1
+            ],
+            "default": 0
+        },
+        "message": {
+            "title": "Original Full Syslog Message",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "Aug 11 17:37:01 uls2204-release kernel: [ 0.000000] Linux version 5.15.0-46-generic (buildd@lcy02-amd64-115) (gcc (Ubuntu 11.2.0-19ubuntu1) 11.2.0, GNU ld (GNU Binutils for Ubuntu) 2.38) #49-Ubuntu SMP Thu Aug 4 18:03:25 UTC 2022 (Ubuntu 5.15.0-46.49-generic 5.15.39)"
+            ],
+            "pattern": "^.*$"
+        },
+        "creationTimestamp": {
+            "title": "Record Creation Timestamp",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "YYYY-MM-DDTHH:MM:SSZ"
+            ],
+            "pattern": "^.*$"
+        },
+        "data": {
+            "title": "Message Data",
+            "type": "object",
+            "required": [
+                "month",
+                "day",
+                "year",
+                "time",
+                "hostname",
+                "service",
+                "msg"
+            ],
+            "properties": {
+                "month": {
+                    "title": "Month",
+                    "type": "string",
+                    "default": "",
+                    "examples": [
+                        "Apr"
+                    ],
+                    "pattern": "^[a-zA-Z]{3}$"
+                },
+                "day": {
+                    "title": "Day",
+                    "type": "string",
+                    "default": "",
+                    "examples": [
+                        "13"
+                    ],
+                    "pattern": "^[0-9]{1,2}$"
+                },
+                "year": {
+                    "title": "Year",
+                    "oneOf": [
+                        {
+                            "type": "string",
+                            "default": "",
+                            "minLength": 0,
+                            "pattern": "^.*$"
+                        },
+                        {
+                            "type": "null",
+                            "default": null
+                        }
+                    ],
+                    "examples": [
+                        "YYYY",
+                        "1996",
+                        null
+                    ]
+                },
+                "time": {
+                    "title": "Time",
+                    "type": "string",
+                    "default": "",
+                    "examples": [
+                        "HH:MM:SS"
+                    ],
+                    "pattern": "^[0-9]{2}:[0-9]{2}:[0-9]{2}$"
+                },
+                "hostname": {
+                    "title": "Hostname",
+                    "type": "string",
+                    "default": "",
+                    "examples": [
+                        "uls-syslog",
+                        "syslog01"
+                    ],
+                    "maxLength": 255,
+                    "pattern": "^.*$"
+                },
+                "service": {
+                    "title": "Service Details",
+                    "type": "array",
+                    "default": [],
+                    "items": {
+                        "title": "Service Name and PID",
+                        "type": "object",
+                        "required": [
+                            "process",
+                            "pid"
+                        ],
+                        "properties": {
+                            "process": {
+                                "title": "Process Name",
+                                "type": "string",
+                                "default": "",
+                                "examples": [
+                                    "kernel",
+                                    "systemd"
+                                ],
+                                "pattern": "^.*$"
+                            },
+                            "pid": {
+                                "title": "PID",
+                                "oneOf": [
+                                    {
+                                        "type": "string",
+                                        "default": "",
+                                        "minLength": 0,
+                                        "pattern": "^[0-9]+$"
+                                    },
+                                    {
+                                        "type": "integer",
+                                        "default": 0
+                                    }
+                                ],
+                                "examples": [
+                                    696,
+                                    "32013"
+                                ]
+                            },
+                        "uniqueItems": true,
+                        "additionalProperties": false
+                        }
+                    }
+                },
+                "msg": {
+                    "title": "Msg",
+                    "type": "string",
+                    "default": "",
+                    "examples": [
+                        "[ 0.000000] Command line: BOOT_IMAGE=/vmlinuz-5.15.0-46-generic root=/dev/mapper/vg0-lv--root ro"
+                    ],
+                    "pattern": "^.*$"
+                },
+            "uniqueItems": true,
+            "additionalProperties": false
+            }
+        }
+    }
+}
