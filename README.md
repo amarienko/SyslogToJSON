@@ -54,23 +54,23 @@ The script generates an output **JSON** file with the following structure:
 
 ```
     {
-        "message": ""
-        "id": ,
-        "creationTimestamp": "YYYY-MM-DDTHH:MM:SSZ",
-        "data": {
-            "month": "",
-            "day": "",
-            "year": "",
-            "time": "",
-            "hostname": "",
-            "service": [
-                {
-                    "process": "",
-                    "pid": ""
-                }
-            ],
-            "msg": ""
-        }
+      "id": logrow,
+      "message": "Mmm dd HH:MM:SS hostname process[pid]: log message",
+      "creationTimestamp": "YYYY-MM-DDTHH:MM:SSZ",
+      "data": {
+        "month": "Mmm",
+        "day": "dd",
+        "year": null,
+        "time": "HH:MM:SS",
+        "hostname": "hostname",
+        "service": [
+          {
+            "process": "name",
+            "pid": pid
+          }
+        ],
+        "msg": "log mesage"
+      }
     }
 ```
 

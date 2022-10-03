@@ -88,24 +88,25 @@
 #    The script generates an output JSON file with the following structure:
 #
 #    {
-#        "message": ""
-#        "id": ,
-#        "creationTimestamp": "YYYY-MM-DDTHH:MM:SSZ",
-#        "data": {
-#            "month": "",
-#            "day": "",
-#            "year": "",
-#            "time": "",
-#            "hostname": "",
-#            "service": [
-#                {
-#                    "process": "",
-#                    "pid": ""
-#                }
-#            ],
-#            "msg": ""
-#        }
+#      "id": logrow,
+#      "message": "Mmm dd HH:MM:SS hostname process[pid]: log message",
+#      "creationTimestamp": "YYYY-MM-DDTHH:MM:SSZ",
+#      "data": {
+#        "month": "Mmm",
+#        "day": "dd",
+#        "year": null,
+#        "time": "HH:MM:SS",
+#        "hostname": "hostname",
+#        "service": [
+#          {
+#            "process": "name",
+#            "pid": pid
+#          }
+#        ],
+#        "msg": "log mesage"
+#      }
 #    }
+#
 #
 #    JSON References:
 #    https://www.w3schools.com/whatis/whatis_json.asp
@@ -140,7 +141,7 @@
 #    >
 #
 #
-version="v0.1.7"
+version="v0.1.8"
 #
 # Exit immediately if a command exits with a non-zero status
 set -e
@@ -239,8 +240,8 @@ json_verification() {
     # the error will be handled inside the function. Detailed information
     # about the error will be written to the .log and .err files
     set +e
-    #jq -M .id1 $logOutput >> $scriptLogFile 2> $errFile
-    testResult=$(${jqPath} -M .id1 $logOutput 2> $errFile)
+    #jq -M .syslog[1] $logOutput >> $scriptLogFile 2> $errFile
+    testResult=$(${jqPath} -M .syslog[1] $logOutput 2> $errFile)
     exitCode=$?
 
     if [ $exitCode == 0 ]; then
@@ -687,6 +688,7 @@ while IFS= read -r line; do
 
     write_log "Row ${rowNumber} of ${logRows}"
     #declare -a rowArray &> /dev/null ## Array creation
+    nullValue="null"    ## Variable for filling JSON `null` type
     if [ ! -z "$line" ]; then
         ## Reading and processing a line of a log file
         #
@@ -703,7 +705,8 @@ while IFS= read -r line; do
         if [[ $? -eq 0 && "$index4" == "$index4Test" ]]; then
             rowArray[4]="$(echo "${index4}" | sed -E 's/\://')"
             # Index 5 (Empty, Not Defined)
-            index5=0
+            #index5=0   ## Disabled # Usage pid=0 replaced with `null` JSON value
+            index5=$nullValue
         else
             rowArray[4]="$index4"
             # Index 5 default
@@ -749,30 +752,35 @@ while IFS= read -r line; do
     fi
 
     if [[ "$arrayDeclarationStatus" == "true" ]]; then
-        stringPreffix="$(printf '"id%s":{' "${rowNumber}")"
-        stringPreffix="$stringPreffix$(printf '"message":"%s",' "$(echo ${fullLine})")"
-        stringPreffix="$stringPreffix$(printf '"id":%d,' ${rowNumber})"
-        stringPreffix="$stringPreffix$(printf '"creationTimestamp":"%s",' "$(TZ=UTC date +%Y-%m-%dT%H:%M:%SZ)")"
-        stringPreffix="$stringPreffix$(printf '"data":{')"
+        #stringPreffix="$(printf '"id%s":{' "${rowNumber}")"                                ## "id1":{
+        stringPreffix="$(printf '{')"                                                       ## "{"
+
+        stringPreffix="$stringPreffix$(printf '"id":%d,' ${rowNumber})"                     ## "id":1,
+        stringPreffix="$stringPreffix$(printf '"message":"%s",' "$(echo ${fullLine})")"     ## "message":"... ___",
+        stringPreffix="$stringPreffix$(printf \
+            '"creationTimestamp":"%s",' \
+            "$(TZ=UTC date +%Y-%m-%dT%H:%M:%SZ)" \
+            )"                                                                              ## "creationTimestamp":"2022-10-03T16:54:47Z",
+        stringPreffix="$stringPreffix$(printf '"data":{')"                                  ## "data":{
 
         if [ $rowNumber == 1 ]; then
-            stringPreffix="{$stringPreffix"
+            stringPreffix='{"syslog":['$stringPreffix                                       ## {"syslog":[  ## upfront for 1st row
         fi
 
-        finalString="$(printf '"month":"%s",' "${rowArray[0]}")"
-        finalString="$finalString$(printf '"day":"%s",' "${rowArray[1]}")"
-        finalString="$finalString$(printf '"year":"",')"
-        finalString="$finalString$(printf '"time":"%s",' "${rowArray[2]}")"
-        finalString="$finalString$(printf '"hostname":"%s",' "${rowArray[3]}")"
-        finalString="$finalString$(printf '"service":[{')"
-        finalString="$finalString$(printf '"process":"%s",' "${rowArray[4]}")"
-        finalString="$finalString$(printf '"pid":%d}],' "${rowArray[5]}")"
-        finalString="$finalString$(printf '"msg":"%s"' "${rowArray[6]}")"
+        finalString="$(printf '"month":"%s",' "${rowArray[0]}")"                            ## "month":"Aug",
+        finalString="$finalString$(printf '"day":"%s",' "${rowArray[1]}")"                  ## "day":"3",
+        finalString="$finalString$(printf '"year":%s,' "${nullValue}")"                     ## "year":null,
+        finalString="$finalString$(printf '"time":"%s",' "${rowArray[2]}")"                 ## "time":"20:34:56",
+        finalString="$finalString$(printf '"hostname":"%s",' "${rowArray[3]}")"             ## "hostname":"uls2204-release",
+        finalString="$finalString$(printf '"service":[{')"                                  ## "service":[{
+        finalString="$finalString$(printf '"process":"%s",' "${rowArray[4]}")"              ## "process":"snapd",
+        finalString="$finalString$(printf '"pid":%s}],' "${rowArray[5]}")"                  ## "pid":944}]
+        finalString="$finalString$(printf '"msg":"%s"' "${rowArray[6]}")"                   ## "msg":"___"
 
         if [ $rowNumber == $logRows ]; then
-            stringSuffix=$( printf "}}}")
+            stringSuffix=$( printf "}}]}")                                                  ## "}}]}"       ## for last row
         else
-            stringSuffix=$( printf "}},")
+            stringSuffix=$( printf "}},")                                                   ## "}},"        ## for all other rows
         fi
 
         # Printing to file
