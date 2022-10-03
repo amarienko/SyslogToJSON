@@ -74,7 +74,7 @@ The script generates an output **JSON** file with the following structure:
     }
 ```
 
-JSON file format is described in the file `syslog2json-schema.json` which can be used to validate the outgoing file.
+JSON file format is described in the file `schema.json` which can be used to validate the outgoing file.
 
 ### Script usage
 
