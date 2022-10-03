@@ -122,22 +122,22 @@
 #    syslog2json -i /var/log/syslog.log
 #    syslog2json -i /var/log/syslog -o /var/tmp
 #    syslog2json -n -j /usr/local/bin/jq
-#    
+#
 #    .NOTES
 #    IMPORTANT! During the processing of syslog file rows, the double quote '"'
 #    character in the CONTENT is replaced with a single quote "'" character for
 #    compatibility with the JSON format.
 #
-#     The script uses the basic system utilities installed by default with the
-#     operating system 'awk', 'sed' and 'cut'.
+#    The script uses the basic system utilities installed by default with the
+#    operating system 'awk', 'sed' and 'cut'.
 #
-#     To check the output JSON file, the 'jq' command is used (must be installed
-#     in the system). The default path /usr/bin/jq is used to run the 'jq' command.
-#     If the executable file is not installed in the /usr/bin directory, then
-#     the path to the 'jq' command must be specified in the -j option.
+#    To check the output JSON file, the 'jq' command is used (must be installed
+#    in the system). The default path /usr/bin/jq is used to run the 'jq' command.
+#    If the executable file is not installed in the /usr/bin directory, then
+#    the path to the 'jq' command must be specified in the -j option.
 #
-#     To disable the check of an output JSON file, you can use the -c option.
-#     >
+#    To disable the check of an output JSON file, you can use the -c option.
+#    >
 #
 #
 version="v0.1.7"
@@ -402,7 +402,7 @@ while getopts ":i:o:nj:chHv" option; do
     esac
 done
 
-## Print Systmen Information
+## Print System Information
 #
 clear
 echo "$(colorwhite_bold 'Collected System Information')"
